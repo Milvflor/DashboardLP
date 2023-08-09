@@ -31,9 +31,6 @@ gem install open-uri
 ```
 
 ```bash
-```
-
-```bash
 gem install selenium-webdriver
 ```
 
