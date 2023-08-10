@@ -1,12 +1,12 @@
 # Python App
 
-### If running in a EC2 instance
+## If using in a EC2 instance
 
-Check this youtube video about it [yt-video](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
+Watch this youtube video about it [yt-video](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
 
 Update your OS
 
-#### Ubuntu
+### Ubuntu
 
 ```bash
 sudo apt-get update
@@ -20,51 +20,65 @@ sudo apt-get upgrade
 sudo apt-get autoremove
 ```
 
-### Install latest python version
+## Install latest python version
 
 Check the official documentation [python-docs](https://www.python.org/downloads/)
 
-#### Ubuntu
+### Ubuntu
 
 ```bash
 sudo apt install python3-dev
 ```
 
-#### Fedora
+### Fedora
 
 ```bash
 sudo dnf install python-devel
 ```
 
-#### Nix OS (Replit)
+### Nix OS (Replit)
 
+> [!NOTE]
+> 
 > Install the latest version
+
 ```bash
 python --version
 ```
 
-### Install pip
+## Install pip
 
-#### Ubuntu
+### Ubuntu
 
 ```bash
 sudo apt install python3-pip
 ```
 
+### Fedora
 
-### Install pipenv
+```bash
+sudo dnf install python3-pip
+```
+
+## Install pipenv
 
 Check the official documentation [pipenv-docs](https://pipenv.pypa.io/en/latest/)
 
 Check the pip package here [pipenv-package](https://pypi.org/project/pipenv/)
 
-#### Using pip
+### Using pip
 
 ```bash
 pip install --user --upgrade pipenv
 ```
 
-#### Fedora
+### Ubuntu
+
+```bash
+sudo apt-get install pipenv
+```
+
+### Fedora
 
 ```bash
 sudo dnf install pipenv
@@ -72,14 +86,17 @@ sudo dnf install pipenv
 
 #### Nix OS (Replit)
 
+> [!NOTE]
+> 
 > Install the latest version
+
 ```bash
 pipenv --version
 ```
 
-### Creating a environment
+## Creating a environment
 
-#### Check your python version
+### Check your python version
 
 ```bash
 python --version
@@ -94,20 +111,36 @@ python3 --version
 #### Create an environment
 
 ```bash
-pipenv --python 3.10.8
+pipenv --python YOUR_PYTHON_VERSION
 ```
 
-> A file `Pipfile` will be created as a result
+or
 
-#### Locking your environment
+```bash
+python3 -m pipenv --python YOUR_PYTHON_VERSION
+```
+
+> [!NOTE]
+> 
+> A  `Pipfile` will be created as a result
+
+#### Lock your environment
 
 ```bash
 pipenv lock
 ```
 
-> A file `Pipfile.lock` will be created as a result
+or
 
-#### Install dependencies
+```bash
+python3 -m pipenv lock
+```
+
+> [!NOTE]
+> 
+> A `Pipfile.lock` will be created as a result
+
+## Install dependencies
 
 Check the fastapi pandas here [pandas-package](https://pandas.pydata.org/docs/getting_started/index.html#getting-started)
 
@@ -119,51 +152,43 @@ Check the boto3 package here [boto3-package](https://boto3.amazonaws.com/v1/docu
 
 ```bash
 pipenv install pandas
-```
-
-```bash
 pipenv install dash
-```
-
-```bash
 pipenv install fastapi
-```
-
-```bash
 pipenv install "uvicorn[standar]"
-```
-
-```bash
 pipenv install boto3
 ```
 
-#### Install AWS CLI 2
+## Install AWS CLI 2
 
-##### Linux
+### Linux
+
 ```bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
 ```
 
-##### Fedora
+### Fedora
+
 ```bash
 sudo dnf install awscli2
 ```
 
-##### NixOs (Replit)
+### NixOs (Replit)
+
+> [!NOTE]
+> 
 > Install the latest version awscli2.out
-```bash
-aws --version
-```
-
-##### Check AWS CLI 2 version
 
 ```bash
 aws --version
 ```
 
-##### Configure AWS CLI 2 in Linux
+## Configure AWS CLI 2 in Linux
+
+### Using your shell
+
+Run the following in your shell
 
 ```bash
 export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
@@ -177,14 +202,19 @@ export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_DATA_KEY
 export AWS_SESSION_TOKEN=YOUR_SESSION_TOKEN
 ```
 
-##### Configure AWS CLI 2 with the credentials file
+### Configure AWS CLI 2 with the credentials file
 
+Edit the `credentials` file
+
+> [!IMPORTANT]
+> 
 > If you're using the Learner Lab of awsacademy.instructure.com
-    Check your credentials into AWS Details > AWS CLI click show
+>     Check your credentials into AWS Details > AWS CLI click show
 
 ```bash
 nano ~/.aws/credentials
 ```
+
 ```bash
 vim ~/.aws/credentials
 ```
@@ -196,53 +226,65 @@ aws_secret_access_key=YOUR_SECRET_ACCESS_DATA_KEY
 aws_session_token=YOUR_SESSION_TOKEN
 ```
 
-### Activate/Deactivate the environment
+## Activate/Deactivate the environment
 
-Activate
+### Activate
 
 ```bash
 pipenv shell
 ```
 
-Deactivate
+Or
+
+```bash
+python3 -m pipenv shell
+```
+
+### Deactivate
 
 ```bash
 deactivate
 ```
 
-### Run app
+## Run app
 
-Make sure you are inside the virtual environment, otherwise it won't work
+> [!WARNING]
+> 
+> Make sure you are inside the virtual environment, otherwise it won't work
 
-#### Fedora
+### Fedora
 
 ```bash
 python Vizualization/app.py
 ```
 
-#### Ubuntu
+### Ubuntu
 
 ```bash
 python3 Vizualization/app.py
 ```
-### Before running the server (Only run once)
 
-Make sure you are inside the virtual environment, otherwise it won't work
+## Before running the server (Only run once)
+
+> [!WARNING]
+> 
+> Make sure you are inside the virtual environment, otherwise it won't work
 
 ```bash
 cd Server/
 ```
 
 > Inside the shell and the Server/ folder run
+
 ```bash
 python ./data.py
 ```
 
-### Run the server
+## Run the server
 
 Make sure you are inside the virtual environment, otherwise it won't work
 
-#### Fedora
+### Fedora
 
 Check the dyanamoDB API [dynamoDB](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#dynamodb)
 
@@ -256,7 +298,7 @@ cd Server/
 uvicorn main:app --reload
 ```
 
-or
+### Ubuntu
 
 ```bash
 python3 -m uvicorn main:app
