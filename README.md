@@ -52,6 +52,11 @@ Check the pip package here [pipenv-package](https://pypi.org/project/pipenv/)
 ```bash
 pip install --user --upgrade pipenv
 ```
+#### Ubuntu
+
+```bash
+sudo apt-get install pipenv
+```
 
 #### Fedora
 
