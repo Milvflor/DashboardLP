@@ -15,73 +15,30 @@ app = FastAPI()
 dynamodb = boto3.resource('dynamodb')
 
 @app.get("/")
-def read_root():
-    hotels = dynamodb.create_table(
-    AttributeDefinitions=[
-        {
-            'AttributeName': 'id',
-            'AttributeType': 'N'
-        },
-        {
-            'AttributeName': 'name',
-            'AttributeType': 'S'
-        }
-    ],
-    TableName='hotels',
-    KeySchema=[
-        {
-            'AttributeName': 'id',
-            'KeyType': 'HASH'
-        },
-        {
-            'AttributeName': 'name',
-            'KeyType': 'RANGE'
-        },
-    ],
-    ProvisionedThroughput={
-        'ReadCapacityUnits': 5,
-        'WriteCapacityUnits': 5
+def read_root():    
+    return {
+        "hotels": "/hotels",
+        "categories": "/categories",
+        "surroundings": "/surroundings",
     }
-    )
-
-    # Wait until the table exists.
-    hotels.wait_until_exists()
-    
-    return hotels.item_count
 
 @app.get("/hotels")
 def read_hotel():
-    table = dynamodb.Table('hotels')
-
-    response = table.get_item(
-        Key={
-            'id': 1,
-            'name': 'La Facha Hostal Restaurant Surf'
-        }
-    )
-    item = response['Item']
-    return item
+    hotels = dynamodb.Table('hotels')
+    response = hotels.scan()
+    data = response['Items']
+    return data
 
 @app.get("/categories")
 def read_categories():
-    table = dynamodb.Table('hotels')
-    response = table.get_item(
-        Key={
-            'id': 1,
-            'name': 'La Facha Hostal Restaurant Surf'
-        }
-    )
-    item = response['Item']
-    return item
+    categories = dynamodb.Table('categories')
+    response = categories.scan()
+    data = response['Items']
+    return data
 
 @app.get("/surroundings")
 def read_surroundings():
-    table = dynamodb.Table('hotels')
-    response = table.get_item(
-        Key={
-            'id': 1,
-            'name': 'La Facha Hostal Restaurant Surf'
-        }
-    )
-    item = response['Item']
-    return item
+    surroundings = dynamodb.Table('surroundings')
+    response = surroundings.scan()
+    data = response['Items']
+    return data

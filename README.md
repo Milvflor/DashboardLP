@@ -22,6 +22,10 @@ Check the official documentation [pipenv-docs](https://pipenv.pypa.io/en/latest/
 
 Check the pip package here [pipenv-package](https://pypi.org/project/pipenv/)
 
+Check the fastapi pacakge here [fastapi-package](https://fastapi.tiangolo.com/tutorial/)
+
+Check the boto3 package here [boto3-package](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
+
 #### Using pip
 
 ```bash
@@ -69,15 +73,15 @@ pipenv install dash
 ```
 
 ```bash
-pipenv install boto3
-```
-
-```bash
 pipenv install fastapi
 ```
 
 ```bash
 pipenv install "uvicorn[standar]"
+```
+
+```bash
+pipenv install boto3
 ```
 
 ##### Install AWS CLI 2
@@ -103,6 +107,13 @@ nano ~/.aws/credentials
 ```
 ```bash
 vim ~/.aws/credentials
+```
+
+```vi
+[default]
+aws_access_key_id=YOUR_ACCESS_KEY_ID
+aws_secret_access_key=YOUR_SECRET_ACCESS_DATA_KEY
+aws_session_token=YOUR_SESSION_TOKEN
 ```
 
 ### Activate/Deactivate the environment
