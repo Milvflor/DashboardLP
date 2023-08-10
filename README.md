@@ -16,6 +16,13 @@ sudo apt install python-dev
 sudo dnf install python-devel
 ```
 
+#### Nix OS (Replit)
+
+> Install the latest version
+```bash
+python --version
+```
+
 ### Install pipenv
 
 Check the official documentation [pipenv-docs](https://pipenv.pypa.io/en/latest/)
@@ -38,6 +45,13 @@ pip install --user --upgrade pipenv
 sudo dnf install pipenv
 ```
 
+#### Nix OS (Replit)
+
+> Install the latest version
+```bash
+pipenv --version
+```
+
 ### Creating a environment
 
 #### Check your python version
@@ -49,7 +63,7 @@ python --version
 #### Create an environment
 
 ```bash
-pipenv --python 3.11
+pipenv --python 3.10.8
 ```
 
 > A file `Pipfile` will be created as a result
