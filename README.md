@@ -55,7 +55,7 @@ pip install --user --upgrade pipenv
 #### Ubuntu
 
 ```bash
-sudo apt-get install pipenv
+sudo apt install python3-pip
 ```
 
 #### Fedora
