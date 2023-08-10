@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 dash = "*"
 pandas = "*"
+boto3 = {extras = ["ctr"], version = "*"}
+uvicorn = {extras = ["standar"], version = "*"}
+fastapi = "*"
 
 [dev-packages]
 
