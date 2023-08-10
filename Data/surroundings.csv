@@ -6,21 +6,21 @@ Esmeraldas,RestaurantAtardecer de Mompiche,0.15,La Facha Hostal Restaurant Surf,
 Esmeraldas,Mompiche Beach,0.05,La Facha Hostal Restaurant Surf,8.4
 Esmeraldas,Playa de Portete,3.5,La Facha Hostal Restaurant Surf,8.4
 Esmeraldas,Colonel Carlos Concha Torres Airport,68.0,La Facha Hostal Restaurant Surf,8.4
-Esmeraldas,Parque Las Palmas,0.25,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Parque mina de piedra,0.5,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Refinerìa Petroecuador Esmeraldas,2.9,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Parque Infantil,3.0,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,cancha,3.1,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Estadio Folke Anderson,3.2,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Campo de Futbol,3.4,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Cancha,3.5,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Parque San Jose Obrero,3.6,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,parque Iglesia San Jose de Obreo,3.6,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,RestaurantPizzería La Cascada de Tony,0.04,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Cafe/barKaraoke Gio´s,0.1,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Cafe/barLa canchita,0.2,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Playa Las Palmas,0.15,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
-Esmeraldas,Colonel Carlos Concha Torres Airport,3.9,"Hotel Casa Arnaldo ""Esmeraldas""",8.9
+Esmeraldas,Parque Las Palmas,0.25,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Parque mina de piedra,0.5,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Refinerìa Petroecuador Esmeraldas,2.9,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Parque Infantil,3.0,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,cancha,3.1,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Estadio Folke Anderson,3.2,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Campo de Futbol,3.4,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Cancha,3.5,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Parque San Jose Obrero,3.6,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,parque Iglesia San Jose de Obreo,3.6,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,RestaurantPizzería La Cascada de Tony,0.04,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Cafe/barKaraoke Gio´s,0.1,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Cafe/barLa canchita,0.2,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Playa Las Palmas,0.15,Hotel Casa Arnaldo Esmeraldas,8.9
+Esmeraldas,Colonel Carlos Concha Torres Airport,3.9,Hotel Casa Arnaldo Esmeraldas,8.9
 Esmeraldas,Cancha de juego del Colegio Pierre,0.7,Hotel la Barca,8.8
 Esmeraldas,cleared area,6.0,Hotel la Barca,8.8
 Esmeraldas,RestaurantHot Dog Crocante,0.01,Hotel la Barca,8.8
@@ -187,9 +187,9 @@ Cuenca,RestaurantGood Affinitty,0.1,Hotel Santiago de Compostella Suites,8.1
 Cuenca,RestaurantPunto,0.2,Hotel Santiago de Compostella Suites,8.1
 Cuenca,Modern Art Museum,1.7,Hotel Santiago de Compostella Suites,8.1
 Cuenca,Straw hat Museum,2.2,Hotel Santiago de Compostella Suites,8.1
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",2.5,Hotel Santiago de Compostella Suites,8.1
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,2.5,Hotel Santiago de Compostella Suites,8.1
 Cuenca,Museum of the Cañari Identity,2.6,Hotel Santiago de Compostella Suites,8.1
-Cuenca,"Museum of ""Las Conceptas""",2.7,Hotel Santiago de Compostella Suites,8.1
+Cuenca,Museum of Las Conceptas,2.7,Hotel Santiago de Compostella Suites,8.1
 Cuenca,Popular Art Museum,2.7,Hotel Santiago de Compostella Suites,8.1
 Cuenca,Museum of the Aboriginal Cultures,2.8,Hotel Santiago de Compostella Suites,8.1
 Cuenca,Museum of the Metals,3.0,Hotel Santiago de Compostella Suites,8.1
@@ -201,7 +201,7 @@ Cuenca,Abdon Calderón Park,0.15,Floré Hotel Boutique,8.9
 Cuenca,Plazoleta de Santo Domingo,0.25,Floré Hotel Boutique,8.9
 Cuenca,Straw hat Museum,0.35,Floré Hotel Boutique,8.9
 Cuenca,Plazoleta de la UNE,0.35,Floré Hotel Boutique,8.9
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.4,Floré Hotel Boutique,8.9
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.4,Floré Hotel Boutique,8.9
 Cuenca,El Barranco,0.4,Floré Hotel Boutique,8.9
 Cuenca,Museum of the Cañari Identity,0.45,Floré Hotel Boutique,8.9
 Cuenca,Modern Art Museum,0.45,Floré Hotel Boutique,8.9
@@ -210,7 +210,7 @@ Cuenca,María Auxiliadora,0.55,Floré Hotel Boutique,8.9
 Cuenca,Cafe/barTRADITIONAL TAFFY “DAMADU” Las Herrerías.,0.01,Floré Hotel Boutique,8.9
 Cuenca,Cafe/barWilly's cafe,0.01,Floré Hotel Boutique,8.9
 Cuenca,Cafe/barCafetería y heladería,0.02,Floré Hotel Boutique,8.9
-Cuenca,"Museum of ""Las Conceptas""",0.55,Floré Hotel Boutique,8.9
+Cuenca,Museum of Las Conceptas,0.55,Floré Hotel Boutique,8.9
 Cuenca,Popular Art Museum,0.7,Floré Hotel Boutique,8.9
 Cuenca,Museum of the Aboriginal Cultures,0.75,Floré Hotel Boutique,8.9
 Cuenca,San Blas square,0.8,Floré Hotel Boutique,8.9
@@ -225,8 +225,8 @@ Cuenca,San Blas square,0.1,Loft NASS Atahualpa,8.6
 Cuenca,Mary Corilé,0.3,Loft NASS Atahualpa,8.6
 Cuenca,Museum of the Cañari Identity,0.3,Loft NASS Atahualpa,8.6
 Cuenca,Parque Carlos Cueva Tamariz,0.35,Loft NASS Atahualpa,8.6
-Cuenca,"Museum of ""Las Conceptas""",0.35,Loft NASS Atahualpa,8.6
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.35,Loft NASS Atahualpa,8.6
+Cuenca,Museum of Las Conceptas,0.35,Loft NASS Atahualpa,8.6
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.35,Loft NASS Atahualpa,8.6
 Cuenca,Plazoleta de la UNE,0.4,Loft NASS Atahualpa,8.6
 Cuenca,Plazoleta Hermano Miguel,0.4,Loft NASS Atahualpa,8.6
 Cuenca,Plaza Antiguo Iess,0.45,Loft NASS Atahualpa,8.6
@@ -255,9 +255,9 @@ Cuenca,Straw hat Museum,0.6,Hostal Posada del Angel,9.3
 Cuenca,Cafe/barCASAMIGOS CAFE,0.01,Hostal Posada del Angel,9.3
 Cuenca,RestaurantRestaurant Thai Spicy,0.03,Hostal Posada del Angel,9.3
 Cuenca,RestaurantMangiare Bene,0.05,Hostal Posada del Angel,9.3
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.8,Hostal Posada del Angel,9.3
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.8,Hostal Posada del Angel,9.3
 Cuenca,Museum of the Cañari Identity,0.9,Hostal Posada del Angel,9.3
-Cuenca,"Museum of ""Las Conceptas""",0.95,Hostal Posada del Angel,9.3
+Cuenca,Museum of Las Conceptas,0.95,Hostal Posada del Angel,9.3
 Cuenca,Popular Art Museum,1.2,Hostal Posada del Angel,9.3
 Cuenca,Museum of the Aboriginal Cultures,1.2,Hostal Posada del Angel,9.3
 Cuenca,San Blas square,1.3,Hostal Posada del Angel,9.3
@@ -265,12 +265,12 @@ Cuenca,Pumapungo Museum,1.8,Hostal Posada del Angel,9.3
 Cuenca,Chahuarchimbana House Museum,2.6,Hostal Posada del Angel,9.3
 Cuenca,RiverTomebamba River,0.85,Hostal Posada del Angel,9.3
 Cuenca,Mariscal Lamar International Airport,2.8,Hostal Posada del Angel,9.3
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.1,Hotel La Orquidea,8.8
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.1,Hotel La Orquidea,8.8
 Cuenca,Abdon Calderón Park,0.2,Hotel La Orquidea,8.8
 Cuenca,Plazoleta de la UNE,0.25,Hotel La Orquidea,8.8
 Cuenca,Plazoleta Hermano Miguel,0.25,Hotel La Orquidea,8.8
 Cuenca,Plazoleta de Santo Domingo,0.35,Hotel La Orquidea,8.8
-Cuenca,"Museum of ""Las Conceptas""",0.4,Hotel La Orquidea,8.8
+Cuenca,Museum of Las Conceptas,0.4,Hotel La Orquidea,8.8
 Cuenca,Parque Victor J. Cuesta,0.45,Hotel La Orquidea,8.8
 Cuenca,San Blas square,0.5,Hotel La Orquidea,8.8
 Cuenca,Cafe/barLa Baraca,0.04,Hotel La Orquidea,8.8
@@ -285,7 +285,7 @@ Cuenca,Chahuarchimbana House Museum,2.0,Hotel La Orquidea,8.8
 Cuenca,RiverTomebamba River,0.6,Hotel La Orquidea,8.8
 Cuenca,Mariscal Lamar International Airport,2.2,Hotel La Orquidea,8.8
 Cuenca,Plazoleta Hermano Miguel,0.05,Hotel Boutique Castilla de Léon,8.0
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.25,Hotel Boutique Castilla de Léon,8.0
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.25,Hotel Boutique Castilla de Léon,8.0
 Cuenca,Abdon Calderón Park,0.45,Hotel Boutique Castilla de Léon,8.0
 Cuenca,Plazoleta de la UNE,0.45,Hotel Boutique Castilla de Léon,8.0
 Cuenca,Plazoleta de Santo Domingo,0.45,Hotel Boutique Castilla de Léon,8.0
@@ -303,7 +303,7 @@ Cuenca,RiverTomebamba River,0.8,Hotel Boutique Castilla de Léon,8.0
 Cuenca,Museum of the Aboriginal Cultures,0.04,Selina Cuenca,8.3
 Cuenca,Popular Art Museum,0.05,Selina Cuenca,8.3
 Cuenca,Plazoleta de la Merced,0.2,Selina Cuenca,8.3
-Cuenca,"Museum of ""Las Conceptas""",0.25,Selina Cuenca,8.3
+Cuenca,Museum of Las Conceptas,0.25,Selina Cuenca,8.3
 Cuenca,Parque de La Madre,0.25,Selina Cuenca,8.3
 Cuenca,Plaza de la Música,0.25,Selina Cuenca,8.3
 Cuenca,Museum of the Cañari Identity,0.35,Selina Cuenca,8.3
@@ -311,7 +311,7 @@ Cuenca,Parque Luis Cordero,0.35,Selina Cuenca,8.3
 Cuenca,Cafe/barOrigami sushi bar,0.01,Selina Cuenca,8.3
 Cuenca,RestaurantPuro Mote,0.01,Selina Cuenca,8.3
 Cuenca,Cafe/barVieja diablos,0.01,Selina Cuenca,8.3
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.55,Selina Cuenca,8.3
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.55,Selina Cuenca,8.3
 Cuenca,San Blas square,0.6,Selina Cuenca,8.3
 Cuenca,Pumapungo Museum,0.65,Selina Cuenca,8.3
 Cuenca,Museum of the Metals,1.5,Selina Cuenca,8.3
@@ -320,7 +320,7 @@ Cuenca,RiverTomebamba River,0.3,Selina Cuenca,8.3
 Cuenca,Abdon Calderón Park,0.1,Hotel Posada del Rey,8.8
 Cuenca,Plazoleta de la UNE,0.2,Hotel Posada del Rey,8.8
 Cuenca,Straw hat Museum,0.25,Hotel Posada del Rey,8.8
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.3,Hotel Posada del Rey,8.8
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.3,Hotel Posada del Rey,8.8
 Cuenca,Plazoleta de la Merced,0.35,Hotel Posada del Rey,8.8
 Cuenca,El Barranco,0.35,Hotel Posada del Rey,8.8
 Cuenca,RestaurantHot dog,0.01,Hotel Posada del Rey,8.8
@@ -337,14 +337,14 @@ Cuenca,Modern Art Museum,0.4,Hotel Azul de la Plaza,8.7
 Cuenca,María Auxiliadora,0.45,Hotel Azul de la Plaza,8.7
 Cuenca,Straw hat Museum,0.45,Hotel Azul de la Plaza,8.7
 Cuenca,El Barranco,0.5,Hotel Azul de la Plaza,8.7
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.5,Hotel Azul de la Plaza,8.7
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.5,Hotel Azul de la Plaza,8.7
 Cuenca,Parque de San Sebastián,0.5,Hotel Azul de la Plaza,8.7
 Cuenca,Plazoleta de la UNE,0.5,Hotel Azul de la Plaza,8.7
 Cuenca,Museum of the Cañari Identity,0.6,Hotel Azul de la Plaza,8.7
 Cuenca,RestaurantAkelarre,0.05,Hotel Azul de la Plaza,8.7
 Cuenca,Cafe/barAkelarre Caffee y Restaurant,0.05,Hotel Azul de la Plaza,8.7
 Cuenca,Cafe/barMocachino,0.1,Hotel Azul de la Plaza,8.7
-Cuenca,"Museum of ""Las Conceptas""",0.7,Hotel Azul de la Plaza,8.7
+Cuenca,Museum of Las Conceptas,0.7,Hotel Azul de la Plaza,8.7
 Cuenca,Popular Art Museum,0.85,Hotel Azul de la Plaza,8.7
 Cuenca,Museum of the Aboriginal Cultures,0.9,Hotel Azul de la Plaza,8.7
 Cuenca,San Blas square,0.95,Hotel Azul de la Plaza,8.7
@@ -363,9 +363,9 @@ Cuenca,Plazoleta de la UNE,0.6,Pepe's House Cuenca Boutique Hotel l B&B,9.3
 Cuenca,RestaurantJack,0.1,Pepe's House Cuenca Boutique Hotel l B&B,9.3
 Cuenca,RestaurantOromar,0.1,Pepe's House Cuenca Boutique Hotel l B&B,9.3
 Cuenca,Cafe/barMozart,0.15,Pepe's House Cuenca Boutique Hotel l B&B,9.3
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.65,Pepe's House Cuenca Boutique Hotel l B&B,9.3
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.65,Pepe's House Cuenca Boutique Hotel l B&B,9.3
 Cuenca,Museum of the Cañari Identity,0.7,Pepe's House Cuenca Boutique Hotel l B&B,9.3
-Cuenca,"Museum of ""Las Conceptas""",0.75,Pepe's House Cuenca Boutique Hotel l B&B,9.3
+Cuenca,Museum of Las Conceptas,0.75,Pepe's House Cuenca Boutique Hotel l B&B,9.3
 Cuenca,Popular Art Museum,0.9,Pepe's House Cuenca Boutique Hotel l B&B,9.3
 Cuenca,Museum of the Aboriginal Cultures,0.95,Pepe's House Cuenca Boutique Hotel l B&B,9.3
 Cuenca,San Blas square,1.1,Pepe's House Cuenca Boutique Hotel l B&B,9.3
@@ -396,19 +396,19 @@ Cuenca,Pumapungo Museum,0.6,Villa Emilia Hostal,9.4
 Cuenca,RestaurantViandas Mami July,0.05,Villa Emilia Hostal,9.4
 Cuenca,Cafe/barGarden Bar,0.05,Villa Emilia Hostal,9.4
 Cuenca,RestaurantEl Manantial,0.1,Villa Emilia Hostal,9.4
-Cuenca,"Museum of ""Las Conceptas""",0.85,Villa Emilia Hostal,9.4
+Cuenca,Museum of Las Conceptas,0.85,Villa Emilia Hostal,9.4
 Cuenca,Museum of the Cañari Identity,0.95,Villa Emilia Hostal,9.4
 Cuenca,Museum of the Metals,0.001,Villa Emilia Hostal,9.4
 Cuenca,Chahuarchimbana House Museum,0.001,Villa Emilia Hostal,9.4
 Cuenca,Straw hat Museum,1.1,Villa Emilia Hostal,9.4
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",1.2,Villa Emilia Hostal,9.4
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,1.2,Villa Emilia Hostal,9.4
 Cuenca,Abdon Calderón Park,1.2,Villa Emilia Hostal,9.4
 Cuenca,Modern Art Museum,1.6,Villa Emilia Hostal,9.4
 Cuenca,RiverTomebamba River,0.75,Villa Emilia Hostal,9.4
 Cuenca,Mariscal Lamar International Airport,2.9,Villa Emilia Hostal,9.4
 Cuenca,Plazoleta de Santo Domingo,0.04,Morenica del Rosario,8.5
 Cuenca,María Auxiliadora,0.3,Morenica del Rosario,8.5
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.45,Morenica del Rosario,8.5
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.45,Morenica del Rosario,8.5
 Cuenca,Parque de San Sebastián,0.55,Morenica del Rosario,8.5
 Cuenca,Plazoleta Hermano Miguel,0.55,Morenica del Rosario,8.5
 Cuenca,RestaurantChicago Pizza,0.01,Morenica del Rosario,8.5
@@ -433,10 +433,10 @@ Cuenca,Popular Art Museum,2.3,Four Points by Sheraton Cuenca,9.0
 Cuenca,Straw hat Museum,2.4,Four Points by Sheraton Cuenca,9.0
 Cuenca,Museum of the Aboriginal Cultures,2.4,Four Points by Sheraton Cuenca,9.0
 Cuenca,Pumapungo Museum,2.5,Four Points by Sheraton Cuenca,9.0
-Cuenca,"Museum of ""Las Conceptas""",2.6,Four Points by Sheraton Cuenca,9.0
+Cuenca,Museum of Las Conceptas,2.6,Four Points by Sheraton Cuenca,9.0
 Cuenca,Museum of the Cañari Identity,2.7,Four Points by Sheraton Cuenca,9.0
 Cuenca,Modern Art Museum,2.7,Four Points by Sheraton Cuenca,9.0
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",2.9,Four Points by Sheraton Cuenca,9.0
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,2.9,Four Points by Sheraton Cuenca,9.0
 Cuenca,San Blas square,3.0,Four Points by Sheraton Cuenca,9.0
 Cuenca,RiverTomebamba River,2.3,Four Points by Sheraton Cuenca,9.0
 Cuenca,Mariscal Lamar International Airport,4.7,Four Points by Sheraton Cuenca,9.0
@@ -455,9 +455,9 @@ Cuenca,RestaurantThe Vegetable Bar,0.4,Hotel Nass Pinar del Lago,8.4
 Cuenca,RestaurantEl Faro,0.5,Hotel Nass Pinar del Lago,8.4
 Cuenca,Modern Art Museum,2.8,Hotel Nass Pinar del Lago,8.4
 Cuenca,Straw hat Museum,3.3,Hotel Nass Pinar del Lago,8.4
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",3.6,Hotel Nass Pinar del Lago,8.4
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,3.6,Hotel Nass Pinar del Lago,8.4
 Cuenca,Museum of the Cañari Identity,3.7,Hotel Nass Pinar del Lago,8.4
-Cuenca,"Museum of ""Las Conceptas""",3.7,Hotel Nass Pinar del Lago,8.4
+Cuenca,Museum of Las Conceptas,3.7,Hotel Nass Pinar del Lago,8.4
 Cuenca,Popular Art Museum,3.8,Hotel Nass Pinar del Lago,8.4
 Cuenca,Museum of the Metals,3.8,Hotel Nass Pinar del Lago,8.4
 Cuenca,Museum of the Aboriginal Cultures,3.9,Hotel Nass Pinar del Lago,8.4
@@ -493,10 +493,10 @@ Cuenca,Canchas de la Floresta 2,0.9,Guesthouse Bella Vista,8.7
 Cuenca,RestaurantBamboo Grill,0.15,Guesthouse Bella Vista,8.7
 Cuenca,Cafe/barCafé cale,0.2,Guesthouse Bella Vista,8.7
 Cuenca,RestaurantViko al carbón,0.25,Guesthouse Bella Vista,8.7
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",1.3,Guesthouse Bella Vista,8.7
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,1.3,Guesthouse Bella Vista,8.7
 Cuenca,Straw hat Museum,1.4,Guesthouse Bella Vista,8.7
 Cuenca,Museum of the Cañari Identity,1.5,Guesthouse Bella Vista,8.7
-Cuenca,"Museum of ""Las Conceptas""",1.6,Guesthouse Bella Vista,8.7
+Cuenca,Museum of Las Conceptas,1.6,Guesthouse Bella Vista,8.7
 Cuenca,San Blas square,1.7,Guesthouse Bella Vista,8.7
 Cuenca,Popular Art Museum,1.8,Guesthouse Bella Vista,8.7
 Cuenca,Museum of the Aboriginal Cultures,1.8,Guesthouse Bella Vista,8.7
@@ -507,7 +507,7 @@ Cuenca,RiverTomebamba River,1.6,Guesthouse Bella Vista,8.7
 Cuenca,Plazoleta de Santo Domingo,0.1,Itza Hotel Boutique Internacional,9.3
 Cuenca,Abdon Calderón Park,0.25,Itza Hotel Boutique Internacional,9.3
 Cuenca,María Auxiliadora,0.35,Itza Hotel Boutique Internacional,9.3
-Cuenca,"Museum of ""Las Conceptas""",0.6,Itza Hotel Boutique Internacional,9.3
+Cuenca,Museum of Las Conceptas,0.6,Itza Hotel Boutique Internacional,9.3
 Cuenca,RestaurantLa Fornace,0.02,Itza Hotel Boutique Internacional,9.3
 Cuenca,RestaurantEucaliptos,0.02,Itza Hotel Boutique Internacional,9.3
 Cuenca,Cafe/barLiron Liron Bar Restaurante,0.03,Itza Hotel Boutique Internacional,9.3
@@ -520,7 +520,7 @@ Cuenca,Plazoleta de Santo Domingo,0.2,Hostal Casa de Lidice,9.1
 Cuenca,Abdon Calderón Park,0.5,Hostal Casa de Lidice,9.1
 Cuenca,Modern Art Museum,0.5,Hostal Casa de Lidice,9.1
 Cuenca,Parque de San Sebastián,0.6,Hostal Casa de Lidice,9.1
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.6,Hostal Casa de Lidice,9.1
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.6,Hostal Casa de Lidice,9.1
 Cuenca,Plazoleta Hermano Miguel,0.65,Hostal Casa de Lidice,9.1
 Cuenca,Plazoleta de la UNE,0.7,Hostal Casa de Lidice,9.1
 Cuenca,Straw hat Museum,0.7,Hostal Casa de Lidice,9.1
@@ -547,17 +547,17 @@ Cuenca,Cafe/barCafetería Imay,0.2,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,RestaurantOro mar marisquería,0.2,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,Straw hat Museum,0.85,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,Museum of the Cañari Identity,1.3,Apartamentos Otorongo Cuenca Ecuador,8.9
-Cuenca,"Museum of ""Las Conceptas""",1.4,Apartamentos Otorongo Cuenca Ecuador,8.9
+Cuenca,Museum of Las Conceptas,1.4,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,Popular Art Museum,1.4,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,Museum of the Aboriginal Cultures,1.5,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,Pumapungo Museum,2.1,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,Chahuarchimbana House Museum,2.8,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,RiverTomebamba River,1.2,Apartamentos Otorongo Cuenca Ecuador,8.9
 Cuenca,Mariscal Lamar International Airport,3.4,Apartamentos Otorongo Cuenca Ecuador,8.9
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.2,El Dorado Hotel,9.0
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.2,El Dorado Hotel,9.0
 Cuenca,Plazoleta Hermano Miguel,0.3,El Dorado Hotel,9.0
 Cuenca,Museum of the Cañari Identity,0.4,El Dorado Hotel,9.0
-Cuenca,"Museum of ""Las Conceptas""",0.5,El Dorado Hotel,9.0
+Cuenca,Museum of Las Conceptas,0.5,El Dorado Hotel,9.0
 Cuenca,Parque Victor J. Cuesta,0.55,El Dorado Hotel,9.0
 Cuenca,RestaurantGoda,0.01,El Dorado Hotel,9.0
 Cuenca,RestaurantPicantes de Leo,0.05,El Dorado Hotel,9.0
@@ -568,7 +568,7 @@ Cuenca,El Barranco,0.45,Check Inn Bed and Breakfast,7.7
 Cuenca,RestaurantAkelarre,0.03,Check Inn Bed and Breakfast,7.7
 Cuenca,Cafe/barAkelarre Caffee y Restaurant,0.04,Check Inn Bed and Breakfast,7.7
 Cuenca,RestaurantRestaurant El Asador N: 2,0.1,Check Inn Bed and Breakfast,7.7
-Cuenca,"Museum of ""Las Conceptas""",0.65,Check Inn Bed and Breakfast,7.7
+Cuenca,Museum of Las Conceptas,0.65,Check Inn Bed and Breakfast,7.7
 Cuenca,Parque de La Madre,0.35,Hotel Valgus,8.7
 Cuenca,Parque Sagitario,0.4,Hotel Valgus,8.7
 Cuenca,Parque Las Candelas,0.5,Hotel Valgus,8.7
@@ -582,7 +582,7 @@ Cuenca,RestaurantRomolo e Remo,0.15,Hotel Valgus,8.7
 Cuenca,RestaurantVrinda Vegetarian Restaurant,0.2,Hotel Valgus,8.7
 Cuenca,Abdon Calderón Park,0.85,Hotel Valgus,8.7
 Cuenca,Museum of the Metals,0.9,Hotel Valgus,8.7
-Cuenca,"Museum of skeletons ""Doctor Gabriel Moscoso""",0.001,Hotel Valgus,8.7
+Cuenca,Museum of skeletons Doctor Gabriel Moscoso,0.001,Hotel Valgus,8.7
 Cuenca,Pumapungo Museum,1.1,Hotel Valgus,8.7
 Cuenca,San Blas square,1.2,Hotel Valgus,8.7
 Cuenca,Chahuarchimbana House Museum,1.6,Hotel Valgus,8.7
@@ -1161,29 +1161,29 @@ Guayaquil,RestaurantLa Canoa,0.1,Unipark by Oro Verde Hotels,8.8
 Guayaquil,Santa Ana Hill,1.6,Unipark by Oro Verde Hotels,8.8
 Guayaquil,Santa Ana Hill Lighthouse,1.7,Unipark by Oro Verde Hotels,8.8
 Guayaquil,José Joaquín de Olmedo International Airport,4.2,Unipark by Oro Verde Hotels,8.8
-Guayaquil,Escuela de Futbol,0.35,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Parque de juegos,0.75,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Parque de juegos Sauces 2,0.8,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Brisas Del Rio,1.2,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Parque Alegria Guayaquil,1.3,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Plaza Jerusalén,1.4,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Parque de la 4ta,1.5,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Guayaquil Historic Park,1.6,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Parque De La 1ra,1.7,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Pista de Bicicross,1.9,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Cafe/barAntojitos cafe,0.1,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,RestaurantBizcocho,0.1,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,RestaurantTropiburger,0.25,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Antonio Neumane Park,2.0,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Santa Ana Hill Lighthouse,4.2,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Santa Ana Hill,4.4,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Seafront,5.0,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Malecon 2000,5.0,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Nahin Isaias Museum,6.0,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,Municipal Museum,6.0,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,TrainDurán,4.8,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,TrainEstación de Ferrocarriles Durán,4.8,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
-Guayaquil,José Joaquín de Olmedo International Airport,1.4,"Holiday Inn Guayaquil Airport, an IHG Hotel",8.8
+Guayaquil,Escuela de Futbol,0.35,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Parque de juegos,0.75,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Parque de juegos Sauces 2,0.8,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Brisas Del Rio,1.2,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Parque Alegria Guayaquil,1.3,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Plaza Jerusalén,1.4,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Parque de la 4ta,1.5,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Guayaquil Historic Park,1.6,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Parque De La 1ra,1.7,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Pista de Bicicross,1.9,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Cafe/barAntojitos cafe,0.1,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,RestaurantBizcocho,0.1,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,RestaurantTropiburger,0.25,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Antonio Neumane Park,2.0,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Santa Ana Hill Lighthouse,4.2,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Santa Ana Hill,4.4,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Seafront,5.0,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Malecon 2000,5.0,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Nahin Isaias Museum,6.0,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,Municipal Museum,6.0,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,TrainDurán,4.8,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,TrainEstación de Ferrocarriles Durán,4.8,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
+Guayaquil,José Joaquín de Olmedo International Airport,1.4,Holiday Inn Guayaquil Airport, an IHG Hotel,8.8
 Guayaquil,Plaza de la Concepcion,0.2,YU! Smarthotels,8.5
 Guayaquil,Plaza Colón,0.25,YU! Smarthotels,8.5
 Guayaquil,Santo Domingo,0.25,YU! Smarthotels,8.5
@@ -1202,24 +1202,24 @@ Guayaquil,Malecon 2000,0.95,YU! Smarthotels,8.5
 Guayaquil,Nahin Isaias Museum,1.2,YU! Smarthotels,8.5
 Guayaquil,Municipal Museum,1.4,YU! Smarthotels,8.5
 Guayaquil,José Joaquín de Olmedo International Airport,3.2,YU! Smarthotels,8.5
-Guayaquil,Santa Ana Park,0.1,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Santa Ana Hill Lighthouse,0.2,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Jacinto Moran de Buitron,0.25,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Cornelio Vernaza,0.35,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Plaza Colón,0.45,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Plaza de la Concepcion,0.45,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Jardines del Malecon,0.95,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Areas verdes Malecon Simon Bolivar,1.4,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,RestaurantMami-t,0.05,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,RestaurantLa Porteña,0.1,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,RestaurantGanchos Restobar,0.1,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Seafront,1.5,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Malecon 2000,1.6,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Nahin Isaias Museum,1.8,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,Municipal Museum,2.1,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,TrainDurán,3.6,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,TrainEstación de Ferrocarriles Durán,3.6,"Wyndham Guayaquil, Puerto Santa Ana",8.9
-Guayaquil,José Joaquín de Olmedo International Airport,2.7,"Wyndham Guayaquil, Puerto Santa Ana",8.9
+Guayaquil,Santa Ana Park,0.1,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Santa Ana Hill Lighthouse,0.2,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Jacinto Moran de Buitron,0.25,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Cornelio Vernaza,0.35,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Plaza Colón,0.45,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Plaza de la Concepcion,0.45,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Jardines del Malecon,0.95,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Areas verdes Malecon Simon Bolivar,1.4,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,RestaurantMami-t,0.05,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,RestaurantLa Porteña,0.1,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,RestaurantGanchos Restobar,0.1,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Seafront,1.5,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Malecon 2000,1.6,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Nahin Isaias Museum,1.8,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,Municipal Museum,2.1,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,TrainDurán,3.6,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,TrainEstación de Ferrocarriles Durán,3.6,Wyndham Guayaquil, Puerto Santa Ana,8.9
+Guayaquil,José Joaquín de Olmedo International Airport,2.7,Wyndham Guayaquil, Puerto Santa Ana,8.9
 Guayaquil,Parque de la 4ta,0.5,Hotel de Alborada,8.4
 Guayaquil,Praque Sauces 9 R49,0.55,Hotel de Alborada,8.4
 Guayaquil,Parque mercado sauce s 9,0.7,Hotel de Alborada,8.4

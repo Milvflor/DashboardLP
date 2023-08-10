@@ -1,0 +1,6110 @@
+with hotels.batch_writer() as batch:
+  batch.put_item(
+  Item={
+    "id": 1,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.1",
+    "hotel": "La Facha Hostal Restaurant Surf",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 2,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.4",
+    "hotel": "La Facha Hostal Restaurant Surf",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 3,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.5",
+    "hotel": "La Facha Hostal Restaurant Surf",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 4,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.5",
+    "hotel": "La Facha Hostal Restaurant Surf",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 5,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "La Facha Hostal Restaurant Surf",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 6,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "La Facha Hostal Restaurant Surf",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 7,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.5",
+    "hotel": "La Facha Hostal Restaurant Surf",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 8,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.4",
+    "hotel": "Hotel Casa Arnaldo Esmeraldas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 9,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.9",
+    "hotel": "Hotel Casa Arnaldo Esmeraldas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 10,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9.2",
+    "hotel": "Hotel Casa Arnaldo Esmeraldas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 11,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9.1",
+    "hotel": "Hotel Casa Arnaldo Esmeraldas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 12,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "Hotel Casa Arnaldo Esmeraldas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 13,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "Hotel Casa Arnaldo Esmeraldas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 14,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.9",
+    "hotel": "Hotel Casa Arnaldo Esmeraldas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 15,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Hotel la Barca",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 16,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.5",
+    "hotel": "Hotel la Barca",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 17,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Hotel la Barca",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 18,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.7",
+    "hotel": "Hotel la Barca",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 19,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "Hotel la Barca",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 20,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Hotel la Barca",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 21,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "8.5",
+    "hotel": "Hotel la Barca",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 22,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9",
+    "hotel": "Resort Playa Azul Departamentos frente al mar",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 23,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "9.2",
+    "hotel": "Resort Playa Azul Departamentos frente al mar",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 24,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Resort Playa Azul Departamentos frente al mar",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 25,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "Resort Playa Azul Departamentos frente al mar",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 26,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "Resort Playa Azul Departamentos frente al mar",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 27,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Resort Playa Azul Departamentos frente al mar",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 28,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.9",
+    "hotel": "Resort Playa Azul Departamentos frente al mar",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 29,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Escapaditas a la Playa",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 30,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "9.1",
+    "hotel": "Escapaditas a la Playa",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 31,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Escapaditas a la Playa",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 32,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "Escapaditas a la Playa",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 33,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "9",
+    "hotel": "Escapaditas a la Playa",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 34,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "8.6",
+    "hotel": "Escapaditas a la Playa",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 35,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.7",
+    "hotel": "Hotel Oceanic Lodge",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 36,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.7",
+    "hotel": "Hotel Oceanic Lodge",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 37,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.8",
+    "hotel": "Hotel Oceanic Lodge",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 38,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "Hotel Oceanic Lodge",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 39,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.2",
+    "hotel": "Hotel Oceanic Lodge",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 40,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "7.9",
+    "hotel": "Hotel Oceanic Lodge",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 41,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.5",
+    "hotel": "Hotel Oceanic Lodge",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 42,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.5",
+    "hotel": "Seaside Garden Ecolodge Mompiche",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 43,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Seaside Garden Ecolodge Mompiche",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 44,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Seaside Garden Ecolodge Mompiche",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 45,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9.2",
+    "hotel": "Seaside Garden Ecolodge Mompiche",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 46,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "9.1",
+    "hotel": "Seaside Garden Ecolodge Mompiche",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 47,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "8.9",
+    "hotel": "Seaside Garden Ecolodge Mompiche",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 48,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "6.4",
+    "hotel": "Seaside Garden Ecolodge Mompiche",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 49,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Hotel RC Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 50,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.6",
+    "hotel": "Hotel RC Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 51,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9",
+    "hotel": "Hotel RC Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 52,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Hotel RC Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 53,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "Hotel RC Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 54,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "7.9",
+    "hotel": "Hotel RC Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 55,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.2",
+    "hotel": "Hotel RC Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 56,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Departamento Frente al Mar Diamond Beach",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 57,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "9.4",
+    "hotel": "Departamento Frente al Mar Diamond Beach",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 58,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9.4",
+    "hotel": "Departamento Frente al Mar Diamond Beach",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 59,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9.5",
+    "hotel": "Departamento Frente al Mar Diamond Beach",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 60,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "9.2",
+    "hotel": "Departamento Frente al Mar Diamond Beach",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 61,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.8",
+    "hotel": "Departamento Frente al Mar Diamond Beach",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 62,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.7",
+    "hotel": "Hotel Almond Beach",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 63,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.7",
+    "hotel": "Hotel Almond Beach",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 64,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Hotel Almond Beach",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 65,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "Hotel Almond Beach",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 66,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "Hotel Almond Beach",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 67,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "8.6",
+    "hotel": "Hotel Almond Beach",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 68,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.5",
+    "hotel": "Hotel Almond Beach",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 69,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Cabañas Ecologicas Cayapas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 70,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.5",
+    "hotel": "Cabañas Ecologicas Cayapas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 71,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Cabañas Ecologicas Cayapas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 72,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "Cabañas Ecologicas Cayapas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 73,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.7",
+    "hotel": "Cabañas Ecologicas Cayapas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 74,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "Cabañas Ecologicas Cayapas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 75,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "8.2",
+    "hotel": "Cabañas Ecologicas Cayapas",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 76,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.8",
+    "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 77,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "7.9",
+    "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 78,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.7",
+    "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 79,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.4",
+    "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 80,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "7.3",
+    "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 81,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "8.6",
+    "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 82,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 83,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "9.1",
+    "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 84,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9.5",
+    "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 85,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9.5",
+    "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 86,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 87,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.2",
+    "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 88,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "10",
+    "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 89,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Tonsupa Diamond Beach Apart - Hotel",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 90,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.6",
+    "hotel": "Tonsupa Diamond Beach Apart - Hotel",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 91,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Tonsupa Diamond Beach Apart - Hotel",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 92,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "Tonsupa Diamond Beach Apart - Hotel",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 93,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.7",
+    "hotel": "Tonsupa Diamond Beach Apart - Hotel",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 94,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.6",
+    "hotel": "Tonsupa Diamond Beach Apart - Hotel",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 95,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.5",
+    "hotel": "Tonsupa Diamond Beach Apart - Hotel",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 96,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Aparthotel Oleaje",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 97,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Aparthotel Oleaje",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 98,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Aparthotel Oleaje",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 99,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "Aparthotel Oleaje",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 100,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Aparthotel Oleaje",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 101,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "8.7",
+    "hotel": "Aparthotel Oleaje",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 102,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "6.3",
+    "hotel": "Aparthotel Oleaje",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 103,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.7",
+    "hotel": "Hotel Makana Resort",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 104,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.4",
+    "hotel": "Hotel Makana Resort",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 105,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9",
+    "hotel": "Hotel Makana Resort",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 106,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "Hotel Makana Resort",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 107,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8",
+    "hotel": "Hotel Makana Resort",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 108,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9",
+    "hotel": "Hotel Makana Resort",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 109,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.2",
+    "hotel": "Hotel Makana Resort",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 110,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "La Bocana",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 111,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.6",
+    "hotel": "La Bocana",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 112,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "La Bocana",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 113,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "La Bocana",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 114,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.7",
+    "hotel": "La Bocana",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 115,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "La Bocana",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 116,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.2",
+    "hotel": "La Bocana",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 117,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "10",
+    "hotel": "Departamentos frente al mar Resort Playa Azul",
+    "score_hotel": "9.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 118,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "9.4",
+    "hotel": "Departamentos frente al mar Resort Playa Azul",
+    "score_hotel": "9.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 119,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "10",
+    "hotel": "Departamentos frente al mar Resort Playa Azul",
+    "score_hotel": "9.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 120,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "10",
+    "hotel": "Departamentos frente al mar Resort Playa Azul",
+    "score_hotel": "9.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 121,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "9.7",
+    "hotel": "Departamentos frente al mar Resort Playa Azul",
+    "score_hotel": "9.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 122,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "10",
+    "hotel": "Departamentos frente al mar Resort Playa Azul",
+    "score_hotel": "9.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 123,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.4",
+    "hotel": "Suite Makana #403",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 124,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.2",
+    "hotel": "Suite Makana #403",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 125,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.6",
+    "hotel": "Suite Makana #403",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 126,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.6",
+    "hotel": "Suite Makana #403",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 127,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.1",
+    "hotel": "Suite Makana #403",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 128,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.3",
+    "hotel": "Suite Makana #403",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 129,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "9.2",
+    "hotel": "Suite Makana #403",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 130,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Caramba Hospedaje",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 131,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.6",
+    "hotel": "Caramba Hospedaje",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 132,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.8",
+    "hotel": "Caramba Hospedaje",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 133,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.6",
+    "hotel": "Caramba Hospedaje",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 134,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.3",
+    "hotel": "Caramba Hospedaje",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 135,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Caramba Hospedaje",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 136,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Caramba Hospedaje",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 137,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Hotel Salduba",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 138,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.9",
+    "hotel": "Hotel Salduba",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 139,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Hotel Salduba",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 140,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "9.1",
+    "hotel": "Hotel Salduba",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 141,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.7",
+    "hotel": "Hotel Salduba",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 142,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "8.9",
+    "hotel": "Hotel Salduba",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 143,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "7.5",
+    "hotel": "Hotel Salduba",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 144,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.6",
+    "hotel": "Casa del mar",
+    "score_hotel": "6.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 145,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.9",
+    "hotel": "Casa del mar",
+    "score_hotel": "6.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 146,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Casa del mar",
+    "score_hotel": "6.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 147,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "Casa del mar",
+    "score_hotel": "6.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 148,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "Casa del mar",
+    "score_hotel": "6.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 149,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "6.7",
+    "hotel": "Casa del mar",
+    "score_hotel": "6.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 150,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 151,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 152,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 153,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 154,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 155,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "8",
+    "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 156,
+    "province": " Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "10",
+    "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 157,
+    "province": " Esmeraldas",
+    "category": "Staff",
+    "score_category": "8.7",
+    "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 158,
+    "province": " Esmeraldas",
+    "category": "Facilities",
+    "score_category": "8.7",
+    "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 159,
+    "province": " Esmeraldas",
+    "category": "Cleanliness",
+    "score_category": "8.6",
+    "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 160,
+    "province": " Esmeraldas",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 161,
+    "province": " Esmeraldas",
+    "category": "Value for money",
+    "score_category": "8.1",
+    "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 162,
+    "province": " Esmeraldas",
+    "category": "Location",
+    "score_category": "9",
+    "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 163,
+    "province": "Esmeraldas",
+    "category": "Free WiFi",
+    "score_category": "5.2",
+    "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 164,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.8",
+    "hotel": "Hotel Santiago de Compostella Suites",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 165,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.2",
+    "hotel": "Hotel Santiago de Compostella Suites",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 166,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "8.5",
+    "hotel": "Hotel Santiago de Compostella Suites",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 167,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.5",
+    "hotel": "Hotel Santiago de Compostella Suites",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 168,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.3",
+    "hotel": "Hotel Santiago de Compostella Suites",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 169,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "8.9",
+    "hotel": "Hotel Santiago de Compostella Suites",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 170,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "7.8",
+    "hotel": "Hotel Santiago de Compostella Suites",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 171,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.5",
+    "hotel": "Floré Hotel Boutique",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 172,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Floré Hotel Boutique",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 173,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9",
+    "hotel": "Floré Hotel Boutique",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 174,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "Floré Hotel Boutique",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 175,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Floré Hotel Boutique",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 176,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.7",
+    "hotel": "Floré Hotel Boutique",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 177,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.5",
+    "hotel": "Floré Hotel Boutique",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 178,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Loft NASS Atahualpa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 179,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.6",
+    "hotel": "Loft NASS Atahualpa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 180,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9",
+    "hotel": "Loft NASS Atahualpa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 181,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "Loft NASS Atahualpa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 182,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Loft NASS Atahualpa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 183,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "Loft NASS Atahualpa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 184,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8",
+    "hotel": "Loft NASS Atahualpa",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 185,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.7",
+    "hotel": "Hostal Posada del Angel",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 186,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9.1",
+    "hotel": "Hostal Posada del Angel",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 187,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.5",
+    "hotel": "Hostal Posada del Angel",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 188,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "Hostal Posada del Angel",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 189,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "9.5",
+    "hotel": "Hostal Posada del Angel",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 190,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.7",
+    "hotel": "Hostal Posada del Angel",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 191,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Hostal Posada del Angel",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 192,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.5",
+    "hotel": "Hotel La Orquidea",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 193,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.7",
+    "hotel": "Hotel La Orquidea",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 194,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "Hotel La Orquidea",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 195,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "Hotel La Orquidea",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 196,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "9",
+    "hotel": "Hotel La Orquidea",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 197,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.8",
+    "hotel": "Hotel La Orquidea",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 198,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Hotel La Orquidea",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 199,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.5",
+    "hotel": "Hotel Boutique Castilla de Léon",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 200,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.1",
+    "hotel": "Hotel Boutique Castilla de Léon",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 201,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "8.4",
+    "hotel": "Hotel Boutique Castilla de Léon",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 202,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.4",
+    "hotel": "Hotel Boutique Castilla de Léon",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 203,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.3",
+    "hotel": "Hotel Boutique Castilla de Léon",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 204,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "8.5",
+    "hotel": "Hotel Boutique Castilla de Léon",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 205,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.1",
+    "hotel": "Hotel Boutique Castilla de Léon",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 206,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.7",
+    "hotel": "Selina Cuenca",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 207,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.5",
+    "hotel": "Selina Cuenca",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 208,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "8.7",
+    "hotel": "Selina Cuenca",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 209,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.6",
+    "hotel": "Selina Cuenca",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 210,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.3",
+    "hotel": "Selina Cuenca",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 211,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Selina Cuenca",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 212,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Selina Cuenca",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 213,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.5",
+    "hotel": "Hotel Posada del Rey",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 214,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Hotel Posada del Rey",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 215,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.2",
+    "hotel": "Hotel Posada del Rey",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 216,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "Hotel Posada del Rey",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 217,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "Hotel Posada del Rey",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 218,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.7",
+    "hotel": "Hotel Posada del Rey",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 219,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8",
+    "hotel": "Hotel Posada del Rey",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 220,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Hotel Azul de la Plaza",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 221,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Hotel Azul de la Plaza",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 222,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Hotel Azul de la Plaza",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 223,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.1",
+    "hotel": "Hotel Azul de la Plaza",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 224,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "Hotel Azul de la Plaza",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 225,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "Hotel Azul de la Plaza",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 226,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.2",
+    "hotel": "Hotel Azul de la Plaza",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 227,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.7",
+    "hotel": "Pepe's House Cuenca Boutique Hotel l B&B",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 228,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9.3",
+    "hotel": "Pepe's House Cuenca Boutique Hotel l B&B",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 229,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.6",
+    "hotel": "Pepe's House Cuenca Boutique Hotel l B&B",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 230,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.4",
+    "hotel": "Pepe's House Cuenca Boutique Hotel l B&B",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 231,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "9.1",
+    "hotel": "Pepe's House Cuenca Boutique Hotel l B&B",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 232,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.7",
+    "hotel": "Pepe's House Cuenca Boutique Hotel l B&B",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 233,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "9.3",
+    "hotel": "Pepe's House Cuenca Boutique Hotel l B&B",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 234,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Hostal Mariscal Inn & Suite",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 235,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.4",
+    "hotel": "Hostal Mariscal Inn & Suite",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 236,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Hostal Mariscal Inn & Suite",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 237,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.6",
+    "hotel": "Hostal Mariscal Inn & Suite",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 238,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Hostal Mariscal Inn & Suite",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 239,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "8.9",
+    "hotel": "Hostal Mariscal Inn & Suite",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 240,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "7.5",
+    "hotel": "Hostal Mariscal Inn & Suite",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 241,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Villa Emilia Hostal",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 242,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9.5",
+    "hotel": "Villa Emilia Hostal",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 243,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.6",
+    "hotel": "Villa Emilia Hostal",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 244,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.6",
+    "hotel": "Villa Emilia Hostal",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 245,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "9.5",
+    "hotel": "Villa Emilia Hostal",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 246,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.6",
+    "hotel": "Villa Emilia Hostal",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 247,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.9",
+    "hotel": "Villa Emilia Hostal",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 248,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Morenica del Rosario",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 249,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.5",
+    "hotel": "Morenica del Rosario",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 250,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9",
+    "hotel": "Morenica del Rosario",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 251,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "Morenica del Rosario",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 252,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.7",
+    "hotel": "Morenica del Rosario",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 253,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "Morenica del Rosario",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 254,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "5.8",
+    "hotel": "Morenica del Rosario",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 255,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Four Points by Sheraton Cuenca",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 256,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9.2",
+    "hotel": "Four Points by Sheraton Cuenca",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 257,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Four Points by Sheraton Cuenca",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 258,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "Four Points by Sheraton Cuenca",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 259,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Four Points by Sheraton Cuenca",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 260,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9",
+    "hotel": "Four Points by Sheraton Cuenca",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 261,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.4",
+    "hotel": "Four Points by Sheraton Cuenca",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 262,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.5",
+    "hotel": "Hotel Nass Pinar del Lago",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 263,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.4",
+    "hotel": "Hotel Nass Pinar del Lago",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 264,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "8.8",
+    "hotel": "Hotel Nass Pinar del Lago",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 265,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Hotel Nass Pinar del Lago",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 266,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Hotel Nass Pinar del Lago",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 267,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9",
+    "hotel": "Hotel Nass Pinar del Lago",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 268,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "7.9",
+    "hotel": "Hotel Nass Pinar del Lago",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 269,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Hosteria Dos Chorreras",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 270,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9.2",
+    "hotel": "Hosteria Dos Chorreras",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 271,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Hosteria Dos Chorreras",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 272,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.2",
+    "hotel": "Hosteria Dos Chorreras",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 273,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "Hosteria Dos Chorreras",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 274,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.2",
+    "hotel": "Hosteria Dos Chorreras",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 275,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "7.4",
+    "hotel": "Hosteria Dos Chorreras",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 276,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Guesthouse Bella Vista",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 277,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9",
+    "hotel": "Guesthouse Bella Vista",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 278,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9",
+    "hotel": "Guesthouse Bella Vista",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 279,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "Guesthouse Bella Vista",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 280,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "9.3",
+    "hotel": "Guesthouse Bella Vista",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 281,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "8.5",
+    "hotel": "Guesthouse Bella Vista",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 282,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "9",
+    "hotel": "Guesthouse Bella Vista",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 283,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.9",
+    "hotel": "Itza Hotel Boutique Internacional",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 284,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9.5",
+    "hotel": "Itza Hotel Boutique Internacional",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 285,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.8",
+    "hotel": "Itza Hotel Boutique Internacional",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 286,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.6",
+    "hotel": "Itza Hotel Boutique Internacional",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 287,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "9",
+    "hotel": "Itza Hotel Boutique Internacional",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 288,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.7",
+    "hotel": "Itza Hotel Boutique Internacional",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 289,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "9.2",
+    "hotel": "Itza Hotel Boutique Internacional",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 290,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Hostal Casa de Lidice",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 291,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9.1",
+    "hotel": "Hostal Casa de Lidice",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 292,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.5",
+    "hotel": "Hostal Casa de Lidice",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 293,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "Hostal Casa de Lidice",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 294,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "9.1",
+    "hotel": "Hostal Casa de Lidice",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 295,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.3",
+    "hotel": "Hostal Casa de Lidice",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 296,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "6.2",
+    "hotel": "Hostal Casa de Lidice",
+    "score_hotel": "9.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 297,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.5",
+    "hotel": "Apartamentos Otorongo Cuenca Ecuador",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 298,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9",
+    "hotel": "Apartamentos Otorongo Cuenca Ecuador",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 299,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "Apartamentos Otorongo Cuenca Ecuador",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 300,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "Apartamentos Otorongo Cuenca Ecuador",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 301,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "Apartamentos Otorongo Cuenca Ecuador",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 302,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "Apartamentos Otorongo Cuenca Ecuador",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 303,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "9.4",
+    "hotel": "Apartamentos Otorongo Cuenca Ecuador",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 304,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "El Dorado Hotel",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 305,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "9",
+    "hotel": "El Dorado Hotel",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 306,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "El Dorado Hotel",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 307,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.4",
+    "hotel": "El Dorado Hotel",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 308,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "El Dorado Hotel",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 309,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "El Dorado Hotel",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 310,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "8.9",
+    "hotel": "El Dorado Hotel",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 311,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.4",
+    "hotel": "Check Inn Bed and Breakfast",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 312,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "7.4",
+    "hotel": "Check Inn Bed and Breakfast",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 313,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "8",
+    "hotel": "Check Inn Bed and Breakfast",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 314,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "7.7",
+    "hotel": "Check Inn Bed and Breakfast",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 315,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.4",
+    "hotel": "Check Inn Bed and Breakfast",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 316,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "Check Inn Bed and Breakfast",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 317,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "7.3",
+    "hotel": "Check Inn Bed and Breakfast",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 318,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "9",
+    "hotel": "Hotel Valgus",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 319,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "8.9",
+    "hotel": "Hotel Valgus",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 320,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "Hotel Valgus",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 321,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "9.2",
+    "hotel": "Hotel Valgus",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 322,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "Hotel Valgus",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 323,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Hotel Valgus",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 324,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "6.5",
+    "hotel": "Hotel Valgus",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 325,
+    "province": "Cuenca",
+    "category": "Staff",
+    "score_category": "8.3",
+    "hotel": "Hotel Spa Santa Ana",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 326,
+    "province": "Cuenca",
+    "category": "Facilities",
+    "score_category": "7.5",
+    "hotel": "Hotel Spa Santa Ana",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 327,
+    "province": "Cuenca",
+    "category": "Cleanliness",
+    "score_category": "8",
+    "hotel": "Hotel Spa Santa Ana",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 328,
+    "province": "Cuenca",
+    "category": "Comfort",
+    "score_category": "7.9",
+    "hotel": "Hotel Spa Santa Ana",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 329,
+    "province": "Cuenca",
+    "category": "Value for money",
+    "score_category": "7.6",
+    "hotel": "Hotel Spa Santa Ana",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 330,
+    "province": "Cuenca",
+    "category": "Location",
+    "score_category": "9",
+    "hotel": "Hotel Spa Santa Ana",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 331,
+    "province": "Cuenca",
+    "category": "Free WiFi",
+    "score_category": "7.5",
+    "hotel": "Hotel Spa Santa Ana",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 332,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Hotel David",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 333,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8.6",
+    "hotel": "Hotel David",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 334,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Hotel David",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 335,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Hotel David",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 336,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "9",
+    "hotel": "Hotel David",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 337,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "8.8",
+    "hotel": "Hotel David",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 338,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.6",
+    "hotel": "Hotel David",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 339,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Rincón Familiar Hostel Boutique",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 340,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8.1",
+    "hotel": "Rincón Familiar Hostel Boutique",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 341,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "8.6",
+    "hotel": "Rincón Familiar Hostel Boutique",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 342,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "8.5",
+    "hotel": "Rincón Familiar Hostel Boutique",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 343,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "Rincón Familiar Hostel Boutique",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 344,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "Rincón Familiar Hostel Boutique",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 345,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.6",
+    "hotel": "Rincón Familiar Hostel Boutique",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 346,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Boutique Hotel Antinea",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 347,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8.9",
+    "hotel": "Boutique Hotel Antinea",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 348,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "Boutique Hotel Antinea",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 349,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "Boutique Hotel Antinea",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 350,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "Boutique Hotel Antinea",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 351,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.2",
+    "hotel": "Boutique Hotel Antinea",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 352,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.6",
+    "hotel": "Boutique Hotel Antinea",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 353,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9",
+    "hotel": "Hotel Bellavista Quito",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 354,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8",
+    "hotel": "Hotel Bellavista Quito",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 355,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "8.5",
+    "hotel": "Hotel Bellavista Quito",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 356,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "8.4",
+    "hotel": "Hotel Bellavista Quito",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 357,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.2",
+    "hotel": "Hotel Bellavista Quito",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 358,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "8.6",
+    "hotel": "Hotel Bellavista Quito",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 359,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.7",
+    "hotel": "Hotel Bellavista Quito",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 360,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.1",
+    "hotel": "Hotel Bernys Estrellita",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 361,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "7.8",
+    "hotel": "Hotel Bernys Estrellita",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 362,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "8.4",
+    "hotel": "Hotel Bernys Estrellita",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 363,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "8",
+    "hotel": "Hotel Bernys Estrellita",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 364,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "Hotel Bernys Estrellita",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 365,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "8.2",
+    "hotel": "Hotel Bernys Estrellita",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 366,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "5.8",
+    "hotel": "Hotel Bernys Estrellita",
+    "score_hotel": "7.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 367,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Wyndham Garden Quito",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 368,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8.9",
+    "hotel": "Wyndham Garden Quito",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 369,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Wyndham Garden Quito",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 370,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "Wyndham Garden Quito",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 371,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Wyndham Garden Quito",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 372,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Wyndham Garden Quito",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 373,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.9",
+    "hotel": "Wyndham Garden Quito",
+    "score_hotel": "9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 374,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.8",
+    "hotel": "Posada Tambuca",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 375,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "9.2",
+    "hotel": "Posada Tambuca",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 376,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.5",
+    "hotel": "Posada Tambuca",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 377,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "Posada Tambuca",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 378,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "9.5",
+    "hotel": "Posada Tambuca",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 379,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.3",
+    "hotel": "Posada Tambuca",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 380,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "9.6",
+    "hotel": "Posada Tambuca",
+    "score_hotel": "9.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 381,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.4",
+    "hotel": "Hostal Yumbo Imperial",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 382,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8",
+    "hotel": "Hostal Yumbo Imperial",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 383,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "8.3",
+    "hotel": "Hostal Yumbo Imperial",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 384,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "8.1",
+    "hotel": "Hostal Yumbo Imperial",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 385,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "9.1",
+    "hotel": "Hostal Yumbo Imperial",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 386,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "Hostal Yumbo Imperial",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 387,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.1",
+    "hotel": "Hostal Yumbo Imperial",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 388,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Hotel Reina Isabel",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 389,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "9",
+    "hotel": "Hotel Reina Isabel",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 390,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Hotel Reina Isabel",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 391,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9.2",
+    "hotel": "Hotel Reina Isabel",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 392,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "Hotel Reina Isabel",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 393,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "8.8",
+    "hotel": "Hotel Reina Isabel",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 394,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.4",
+    "hotel": "Hotel Reina Isabel",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 395,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.9",
+    "hotel": "Hotel Casona 1914",
+    "score_hotel": "9.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 396,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "9.7",
+    "hotel": "Hotel Casona 1914",
+    "score_hotel": "9.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 397,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.8",
+    "hotel": "Hotel Casona 1914",
+    "score_hotel": "9.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 398,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9.8",
+    "hotel": "Hotel Casona 1914",
+    "score_hotel": "9.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 399,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "9.7",
+    "hotel": "Hotel Casona 1914",
+    "score_hotel": "9.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 400,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "Hotel Casona 1914",
+    "score_hotel": "9.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 401,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "9.3",
+    "hotel": "Hotel Casona 1914",
+    "score_hotel": "9.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 402,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "8.8",
+    "hotel": "Hostal Juana de Arco",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 403,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8.1",
+    "hotel": "Hostal Juana de Arco",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 404,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "8.7",
+    "hotel": "Hostal Juana de Arco",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 405,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "8.3",
+    "hotel": "Hostal Juana de Arco",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 406,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "9.1",
+    "hotel": "Hostal Juana de Arco",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 407,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.2",
+    "hotel": "Hostal Juana de Arco",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 408,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.9",
+    "hotel": "Hostal Juana de Arco",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 409,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9",
+    "hotel": "ibis Quito",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 410,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "9",
+    "hotel": "ibis Quito",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 411,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "ibis Quito",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 412,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9.1",
+    "hotel": "ibis Quito",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 413,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "ibis Quito",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 414,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.3",
+    "hotel": "ibis Quito",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 415,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "ibis Quito",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 416,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.5",
+    "hotel": "ArtPlaza",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 417,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8.6",
+    "hotel": "ArtPlaza",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 418,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "ArtPlaza",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 419,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "8.9",
+    "hotel": "ArtPlaza",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 420,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "ArtPlaza",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 421,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "8.9",
+    "hotel": "ArtPlaza",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 422,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "9",
+    "hotel": "ArtPlaza",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 423,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "ITSAHOME Apartments Torre Seis",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 424,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8.7",
+    "hotel": "ITSAHOME Apartments Torre Seis",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 425,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9",
+    "hotel": "ITSAHOME Apartments Torre Seis",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 426,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "ITSAHOME Apartments Torre Seis",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 427,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.9",
+    "hotel": "ITSAHOME Apartments Torre Seis",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 428,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "ITSAHOME Apartments Torre Seis",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 429,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8",
+    "hotel": "ITSAHOME Apartments Torre Seis",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 430,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.7",
+    "hotel": "Vista del Angel Hotel Boutique",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 431,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "9.4",
+    "hotel": "Vista del Angel Hotel Boutique",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 432,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.6",
+    "hotel": "Vista del Angel Hotel Boutique",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 433,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9.6",
+    "hotel": "Vista del Angel Hotel Boutique",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 434,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "9.2",
+    "hotel": "Vista del Angel Hotel Boutique",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 435,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9",
+    "hotel": "Vista del Angel Hotel Boutique",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 436,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "9.5",
+    "hotel": "Vista del Angel Hotel Boutique",
+    "score_hotel": "9.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 437,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Hotel Huasi Continental",
+    "score_hotel": "8.2",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 438,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8",
+    "hotel": "Hotel Huasi Continental",
+    "score_hotel": "8.2",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 439,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "8.5",
+    "hotel": "Hotel Huasi Continental",
+    "score_hotel": "8.2",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 440,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "8.4",
+    "hotel": "Hotel Huasi Continental",
+    "score_hotel": "8.2",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 441,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "Hotel Huasi Continental",
+    "score_hotel": "8.2",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 442,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9",
+    "hotel": "Hotel Huasi Continental",
+    "score_hotel": "8.2",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 443,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "10",
+    "hotel": "Hotel Huasi Continental",
+    "score_hotel": "8.2",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 444,
+    "province": "Quito",
+    "category": "Staff",
+    "score_category": "8.8",
+    "hotel": "Dann Carlton Quito",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 445,
+    "province": "Quito",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Dann Carlton Quito",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 446,
+    "province": "Quito",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "Dann Carlton Quito",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 447,
+    "province": "Quito",
+    "category": "Comfort",
+    "score_category": "9.2",
+    "hotel": "Dann Carlton Quito",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 448,
+    "province": "Quito",
+    "category": "Value for money",
+    "score_category": "8.4",
+    "hotel": "Dann Carlton Quito",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 449,
+    "province": "Quito",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "Dann Carlton Quito",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 450,
+    "province": "Quito",
+    "category": "Free WiFi",
+    "score_category": "8.4",
+    "hotel": "Dann Carlton Quito",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 451,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8",
+    "hotel": "Hotel Air Suites",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 452,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "7.3",
+    "hotel": "Hotel Air Suites",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 453,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "7.9",
+    "hotel": "Hotel Air Suites",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 454,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "7.7",
+    "hotel": "Hotel Air Suites",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 455,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "7.4",
+    "hotel": "Hotel Air Suites",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 456,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.5",
+    "hotel": "Hotel Air Suites",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 457,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "7.1",
+    "hotel": "Hotel Air Suites",
+    "score_hotel": "7.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 458,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.7",
+    "hotel": "Hotel Perla Central",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 459,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "7.8",
+    "hotel": "Hotel Perla Central",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 460,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.1",
+    "hotel": "Hotel Perla Central",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 461,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.1",
+    "hotel": "Hotel Perla Central",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 462,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.1",
+    "hotel": "Hotel Perla Central",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 463,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.3",
+    "hotel": "Hotel Perla Central",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 464,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "7.9",
+    "hotel": "Hotel Perla Central",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 465,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Hotel Palace Guayaquil",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 466,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.9",
+    "hotel": "Hotel Palace Guayaquil",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 467,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Hotel Palace Guayaquil",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 468,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "9.1",
+    "hotel": "Hotel Palace Guayaquil",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 469,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.8",
+    "hotel": "Hotel Palace Guayaquil",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 470,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.9",
+    "hotel": "Hotel Palace Guayaquil",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 471,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Hotel Palace Guayaquil",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 472,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "River Garden Hotel + Suites",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 473,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "9.1",
+    "hotel": "River Garden Hotel + Suites",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 474,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "River Garden Hotel + Suites",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 475,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "River Garden Hotel + Suites",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 476,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "River Garden Hotel + Suites",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 477,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "River Garden Hotel + Suites",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 478,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.6",
+    "hotel": "River Garden Hotel + Suites",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 479,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "TRYP by Wyndham Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 480,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.5",
+    "hotel": "TRYP by Wyndham Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 481,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.8",
+    "hotel": "TRYP by Wyndham Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 482,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "TRYP by Wyndham Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 483,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.2",
+    "hotel": "TRYP by Wyndham Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 484,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "TRYP by Wyndham Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 485,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "TRYP by Wyndham Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 486,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Wyndham Garden Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 487,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.6",
+    "hotel": "Wyndham Garden Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 488,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "9",
+    "hotel": "Wyndham Garden Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 489,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "9",
+    "hotel": "Wyndham Garden Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 490,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.4",
+    "hotel": "Wyndham Garden Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 491,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.2",
+    "hotel": "Wyndham Garden Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 492,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.6",
+    "hotel": "Wyndham Garden Guayaquil",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 493,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Unipark by Oro Verde Hotels",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 494,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Unipark by Oro Verde Hotels",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 495,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "Unipark by Oro Verde Hotels",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 496,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "9.1",
+    "hotel": "Unipark by Oro Verde Hotels",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 497,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "Unipark by Oro Verde Hotels",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 498,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.2",
+    "hotel": "Unipark by Oro Verde Hotels",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 499,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "9.1",
+    "hotel": "Unipark by Oro Verde Hotels",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 500,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "9.2",
+    "hotel": "Holiday Inn Guayaquil Airport; an IHG Hotel",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 501,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "9.1",
+    "hotel": "Holiday Inn Guayaquil Airport; an IHG Hotel",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 502,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Holiday Inn Guayaquil Airport; an IHG Hotel",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 503,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "9.3",
+    "hotel": "Holiday Inn Guayaquil Airport; an IHG Hotel",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 504,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.4",
+    "hotel": "Holiday Inn Guayaquil Airport; an IHG Hotel",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 505,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Holiday Inn Guayaquil Airport; an IHG Hotel",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 506,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Holiday Inn Guayaquil Airport; an IHG Hotel",
+    "score_hotel": "8.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 507,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "9",
+    "hotel": "YU! Smarthotels",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 508,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.4",
+    "hotel": "YU! Smarthotels",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 509,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.8",
+    "hotel": "YU! Smarthotels",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 510,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "YU! Smarthotels",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 511,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "YU! Smarthotels",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 512,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.5",
+    "hotel": "YU! Smarthotels",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 513,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.4",
+    "hotel": "YU! Smarthotels",
+    "score_hotel": "8.5",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 514,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Wyndham Guayaquil; Puerto Santa Ana",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 515,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "9.1",
+    "hotel": "Wyndham Guayaquil; Puerto Santa Ana",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 516,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "9.3",
+    "hotel": "Wyndham Guayaquil; Puerto Santa Ana",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 517,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "9.4",
+    "hotel": "Wyndham Guayaquil; Puerto Santa Ana",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 518,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "Wyndham Guayaquil; Puerto Santa Ana",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 519,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.5",
+    "hotel": "Wyndham Guayaquil; Puerto Santa Ana",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 520,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.9",
+    "hotel": "Wyndham Guayaquil; Puerto Santa Ana",
+    "score_hotel": "8.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 521,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Hotel de Alborada",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 522,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.4",
+    "hotel": "Hotel de Alborada",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 523,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.8",
+    "hotel": "Hotel de Alborada",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 524,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.5",
+    "hotel": "Hotel de Alborada",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 525,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.4",
+    "hotel": "Hotel de Alborada",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 526,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.4",
+    "hotel": "Hotel de Alborada",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 527,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Hotel de Alborada",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 528,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "The Park Hotel",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 529,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "7.6",
+    "hotel": "The Park Hotel",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 530,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.3",
+    "hotel": "The Park Hotel",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 531,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8",
+    "hotel": "The Park Hotel",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 532,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "7.8",
+    "hotel": "The Park Hotel",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 533,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "The Park Hotel",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 534,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "7.8",
+    "hotel": "The Park Hotel",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 535,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "9.1",
+    "hotel": "Sheraton Guayaquil",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 536,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.7",
+    "hotel": "Sheraton Guayaquil",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 537,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "Sheraton Guayaquil",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 538,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "9.1",
+    "hotel": "Sheraton Guayaquil",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 539,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.3",
+    "hotel": "Sheraton Guayaquil",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 540,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Sheraton Guayaquil",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 541,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Sheraton Guayaquil",
+    "score_hotel": "8.7",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 542,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "DC Suites Aeropuerto",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 543,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8",
+    "hotel": "DC Suites Aeropuerto",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 544,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.6",
+    "hotel": "DC Suites Aeropuerto",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 545,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.4",
+    "hotel": "DC Suites Aeropuerto",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 546,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.3",
+    "hotel": "DC Suites Aeropuerto",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 547,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.6",
+    "hotel": "DC Suites Aeropuerto",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 548,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.7",
+    "hotel": "DC Suites Aeropuerto",
+    "score_hotel": "8.1",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 549,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.3",
+    "hotel": "Airport Hotel",
+    "score_hotel": "7.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 550,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "7.7",
+    "hotel": "Airport Hotel",
+    "score_hotel": "7.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 551,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.2",
+    "hotel": "Airport Hotel",
+    "score_hotel": "7.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 552,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8",
+    "hotel": "Airport Hotel",
+    "score_hotel": "7.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 553,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "7.8",
+    "hotel": "Airport Hotel",
+    "score_hotel": "7.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 554,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.9",
+    "hotel": "Airport Hotel",
+    "score_hotel": "7.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 555,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "7.2",
+    "hotel": "Airport Hotel",
+    "score_hotel": "7.8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 556,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Hotel Puerto Pacifico Guayaquil Airport",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 557,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.5",
+    "hotel": "Hotel Puerto Pacifico Guayaquil Airport",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 558,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.9",
+    "hotel": "Hotel Puerto Pacifico Guayaquil Airport",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 559,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Hotel Puerto Pacifico Guayaquil Airport",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 560,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.2",
+    "hotel": "Hotel Puerto Pacifico Guayaquil Airport",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 561,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.8",
+    "hotel": "Hotel Puerto Pacifico Guayaquil Airport",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 562,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "7.9",
+    "hotel": "Hotel Puerto Pacifico Guayaquil Airport",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 563,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.7",
+    "hotel": "Hilton Colon Guayaquil Hotel",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 564,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.8",
+    "hotel": "Hilton Colon Guayaquil Hotel",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 565,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "9.1",
+    "hotel": "Hilton Colon Guayaquil Hotel",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 566,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "9.2",
+    "hotel": "Hilton Colon Guayaquil Hotel",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 567,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.3",
+    "hotel": "Hilton Colon Guayaquil Hotel",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 568,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "Hilton Colon Guayaquil Hotel",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 569,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.4",
+    "hotel": "Hilton Colon Guayaquil Hotel",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 570,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.8",
+    "hotel": "Pepe's House Guayaquil I Self Check-In MicroHotel",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 571,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.3",
+    "hotel": "Pepe's House Guayaquil I Self Check-In MicroHotel",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 572,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.8",
+    "hotel": "Pepe's House Guayaquil I Self Check-In MicroHotel",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 573,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Pepe's House Guayaquil I Self Check-In MicroHotel",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 574,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.5",
+    "hotel": "Pepe's House Guayaquil I Self Check-In MicroHotel",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 575,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9",
+    "hotel": "Pepe's House Guayaquil I Self Check-In MicroHotel",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 576,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "9.4",
+    "hotel": "Pepe's House Guayaquil I Self Check-In MicroHotel",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 577,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.6",
+    "hotel": "Hotel Ramada",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 578,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "7.8",
+    "hotel": "Hotel Ramada",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 579,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.3",
+    "hotel": "Hotel Ramada",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 580,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.3",
+    "hotel": "Hotel Ramada",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 581,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "7.8",
+    "hotel": "Hotel Ramada",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 582,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.1",
+    "hotel": "Hotel Ramada",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 583,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.2",
+    "hotel": "Hotel Ramada",
+    "score_hotel": "7.9",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 584,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.4",
+    "hotel": "Hotel Patrimonial by Greenfield",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 585,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.4",
+    "hotel": "Hotel Patrimonial by Greenfield",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 586,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.7",
+    "hotel": "Hotel Patrimonial by Greenfield",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 587,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Hotel Patrimonial by Greenfield",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 588,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "Hotel Patrimonial by Greenfield",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 589,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.4",
+    "hotel": "Hotel Patrimonial by Greenfield",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 590,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.7",
+    "hotel": "Hotel Patrimonial by Greenfield",
+    "score_hotel": "8.4",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 591,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.7",
+    "hotel": "Hotel Marcelius",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 592,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.3",
+    "hotel": "Hotel Marcelius",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 593,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.7",
+    "hotel": "Hotel Marcelius",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 594,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.6",
+    "hotel": "Hotel Marcelius",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 595,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.2",
+    "hotel": "Hotel Marcelius",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 596,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "8.7",
+    "hotel": "Hotel Marcelius",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 597,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "7.9",
+    "hotel": "Hotel Marcelius",
+    "score_hotel": "8.3",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 598,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "9.3",
+    "hotel": "Hotel Boutique Mansion Del Rio",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 599,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "8.5",
+    "hotel": "Hotel Boutique Mansion Del Rio",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 600,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.7",
+    "hotel": "Hotel Boutique Mansion Del Rio",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 601,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.8",
+    "hotel": "Hotel Boutique Mansion Del Rio",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 602,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.6",
+    "hotel": "Hotel Boutique Mansion Del Rio",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 603,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Hotel Boutique Mansion Del Rio",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 604,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.8",
+    "hotel": "Hotel Boutique Mansion Del Rio",
+    "score_hotel": "8.6",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 605,
+    "province": "Guayaquil",
+    "category": "Staff",
+    "score_category": "8.9",
+    "hotel": "Manso Boutique Guest House",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 606,
+    "province": "Guayaquil",
+    "category": "Facilities",
+    "score_category": "7.9",
+    "hotel": "Manso Boutique Guest House",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 607,
+    "province": "Guayaquil",
+    "category": "Cleanliness",
+    "score_category": "8.1",
+    "hotel": "Manso Boutique Guest House",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 608,
+    "province": "Guayaquil",
+    "category": "Comfort",
+    "score_category": "8.1",
+    "hotel": "Manso Boutique Guest House",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 609,
+    "province": "Guayaquil",
+    "category": "Value for money",
+    "score_category": "8.2",
+    "hotel": "Manso Boutique Guest House",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 610,
+    "province": "Guayaquil",
+    "category": "Location",
+    "score_category": "9.4",
+    "hotel": "Manso Boutique Guest House",
+    "score_hotel": "8",
+        }
+    )
+  batch.put_item(
+  Item={
+    "id": 611,
+    "province": "Guayaquil",
+    "category": "Free WiFi",
+    "score_category": "8.5",
+    "hotel": "Manso Boutique Guest House",
+    "score_hotel": "8",
+  })

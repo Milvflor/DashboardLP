@@ -68,6 +68,43 @@ pipenv install pandas
 pipenv install dash
 ```
 
+```bash
+pipenv install boto3
+```
+
+```bash
+pipenv install fastapi
+```
+
+```bash
+pipenv install "uvicorn[standar]"
+```
+
+##### Install AWS CLI 2
+
+Fedora
+```bash
+sudo dnf install awscli2
+```
+
+##### Check AWS CLI 2 version
+
+```bash
+aws --version
+```
+
+##### Configure AWS CLI 2
+
+> If you're using the Learner Lab of awsacademy.instructure.com
+    Check your credentials into AWS Details.
+
+```bash
+nano ~/.aws/credentials
+```
+```bash
+vim ~/.aws/credentials
+```
+
 ### Activate/Deactivate the environment
 
 Activate
@@ -96,4 +133,20 @@ python Vizualization/app.py
 
 ```bash
 python3 Vizualization/app.py
+```
+
+### Run the server
+
+Make sure you are inside the virtual environment, otherwise it won't work
+
+#### Fedora
+
+```bash
+cd Server/
+```
+
+> Inside the shell and the Server/ folder run
+
+```bash
+uvicorn main:app --reload
 ```
