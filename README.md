@@ -2,6 +2,8 @@
 
 ### If running in a EC2 instance
 
+Check this youtube video about it [yt-video](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
+
 Update your OS
 
 #### Ubuntu
@@ -41,6 +43,15 @@ sudo dnf install python-devel
 python --version
 ```
 
+### Install pip
+
+#### Ubuntu
+
+```bash
+sudo apt install python3-pip
+```
+
+
 ### Install pipenv
 
 Check the official documentation [pipenv-docs](https://pipenv.pypa.io/en/latest/)
@@ -51,11 +62,6 @@ Check the pip package here [pipenv-package](https://pypi.org/project/pipenv/)
 
 ```bash
 pip install --user --upgrade pipenv
-```
-#### Ubuntu
-
-```bash
-sudo apt install python3-pip
 ```
 
 #### Fedora
@@ -248,4 +254,10 @@ cd Server/
 
 ```bash
 uvicorn main:app --reload
+```
+
+or
+
+```bash
+python3 -m uvicorn main:app
 ```
