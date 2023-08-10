@@ -16,15 +16,18 @@ sudo apt install python-dev
 sudo dnf install python-devel
 ```
 
+#### Nix OS (Replit)
+
+> Install the latest version
+```bash
+python --version
+```
+
 ### Install pipenv
 
 Check the official documentation [pipenv-docs](https://pipenv.pypa.io/en/latest/)
 
 Check the pip package here [pipenv-package](https://pypi.org/project/pipenv/)
-
-Check the fastapi pacakge here [fastapi-package](https://fastapi.tiangolo.com/tutorial/)
-
-Check the boto3 package here [boto3-package](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
 
 #### Using pip
 
@@ -38,6 +41,13 @@ pip install --user --upgrade pipenv
 sudo dnf install pipenv
 ```
 
+#### Nix OS (Replit)
+
+> Install the latest version
+```bash
+pipenv --version
+```
+
 ### Creating a environment
 
 #### Check your python version
@@ -49,7 +59,7 @@ python --version
 #### Create an environment
 
 ```bash
-pipenv --python 3.11
+pipenv --python 3.10.8
 ```
 
 > A file `Pipfile` will be created as a result
@@ -63,6 +73,14 @@ pipenv lock
 > A file `Pipfile.lock` will be created as a result
 
 #### Install dependencies
+
+Check the fastapi pandas here [pandas-package](https://pandas.pydata.org/docs/getting_started/index.html#getting-started)
+
+Check the fastapi dash here [dash-package](https://dash.plotly.com/)
+
+Check the fastapi pacakge here [fastapi-package](https://fastapi.tiangolo.com/tutorial/)
+
+Check the boto3 package here [boto3-package](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
 
 ```bash
 pipenv install pandas
@@ -84,11 +102,17 @@ pipenv install "uvicorn[standar]"
 pipenv install boto3
 ```
 
-##### Install AWS CLI 2
+#### Install AWS CLI 2
 
-Fedora
+##### Fedora
 ```bash
 sudo dnf install awscli2
+```
+
+##### NixOs (Replit)
+> Install the latest version awscli2.out
+```bash
+aws --version
 ```
 
 ##### Check AWS CLI 2 version
@@ -97,10 +121,24 @@ sudo dnf install awscli2
 aws --version
 ```
 
-##### Configure AWS CLI 2
+##### Configure AWS CLI 2 in Linux
+
+```bash
+export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
+```
+
+```bash
+export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_DATA_KEY
+```
+
+```bash
+export AWS_SESSION_TOKEN=YOUR_SESSION_TOKEN
+```
+
+##### Configure AWS CLI 2 with the credentials file
 
 > If you're using the Learner Lab of awsacademy.instructure.com
-    Check your credentials into AWS Details.
+    Check your credentials into AWS Details > AWS CLI click show
 
 ```bash
 nano ~/.aws/credentials
@@ -109,7 +147,7 @@ nano ~/.aws/credentials
 vim ~/.aws/credentials
 ```
 
-```vi
+```vim
 [default]
 aws_access_key_id=YOUR_ACCESS_KEY_ID
 aws_secret_access_key=YOUR_SECRET_ACCESS_DATA_KEY
@@ -163,6 +201,8 @@ python ./data.py
 Make sure you are inside the virtual environment, otherwise it won't work
 
 #### Fedora
+
+Check the dyanamoDB API [dynamoDB](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#dynamodb)
 
 ```bash
 cd Server/
