@@ -7,7 +7,7 @@ Check the official documentation [python-docs](https://www.python.org/downloads/
 #### Ubuntu
 
 ```bash
-sudo apt install python-dev
+sudo apt install python3-dev
 ```
 
 #### Fedora
