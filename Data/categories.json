@@ -1,4 +1,4 @@
-with hotels.batch_writer() as batch:
+with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 1,
