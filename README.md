@@ -1,5 +1,23 @@
 # Python App
 
+### If running in a EC2 instance
+
+Update your OS
+
+#### Ubuntu
+
+```bash
+sudo apt-get update
+```
+
+```bash
+sudo apt-get upgrade
+```
+
+```bash
+sudo apt-get autoremove
+```
+
 ### Install latest python version
 
 Check the official documentation [python-docs](https://www.python.org/downloads/)
@@ -7,7 +25,7 @@ Check the official documentation [python-docs](https://www.python.org/downloads/
 #### Ubuntu
 
 ```bash
-sudo apt install python-dev
+sudo apt install python3-dev
 ```
 
 #### Fedora
@@ -34,6 +52,11 @@ Check the pip package here [pipenv-package](https://pypi.org/project/pipenv/)
 ```bash
 pip install --user --upgrade pipenv
 ```
+#### Ubuntu
+
+```bash
+sudo apt install python3-pip
+```
 
 #### Fedora
 
@@ -54,6 +77,12 @@ pipenv --version
 
 ```bash
 python --version
+```
+
+or
+
+```bash
+python3 --version
 ```
 
 #### Create an environment
@@ -103,6 +132,13 @@ pipenv install boto3
 ```
 
 #### Install AWS CLI 2
+
+##### Linux
+```bash
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
 
 ##### Fedora
 ```bash
