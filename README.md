@@ -79,6 +79,12 @@ pipenv --version
 python --version
 ```
 
+or
+
+```bash
+python3 --version
+```
+
 #### Create an environment
 
 ```bash
