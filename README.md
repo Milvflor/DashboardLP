@@ -1,5 +1,23 @@
 # Python App
 
+### If running in a EC2 instance
+
+Update your OS
+
+#### Ubuntu
+
+```bash
+sudo apt-get update
+```
+
+```bash
+sudo apt-get upgrade
+```
+
+```bash
+sudo apt-get autoremove
+```
+
 ### Install latest python version
 
 Check the official documentation [python-docs](https://www.python.org/downloads/)
