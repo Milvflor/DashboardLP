@@ -145,6 +145,18 @@ python Vizualization/app.py
 ```bash
 python3 Vizualization/app.py
 ```
+### Before running the server (Only run once)
+
+Make sure you are inside the virtual environment, otherwise it won't work
+
+```bash
+cd Server/
+```
+
+> Inside the shell and the Server/ folder run
+```bash
+python ./data.py
+```
 
 ### Run the server
 
