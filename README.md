@@ -16,10 +16,6 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-```bash
-sudo apt-get autoremove
-```
-
 ## Install latest python version
 
 Check the official documentation [python-docs](https://www.python.org/downloads/)
@@ -78,6 +74,16 @@ pip install --user --upgrade pipenv
 sudo apt-get install pipenv
 ```
 
+```bash
+export PATH=$PATH:/home/ubuntu/.local/bin
+```
+
+Finally source the `.bashrc`
+
+```bash
+source .bashrc
+```
+
 ### Fedora
 
 ```bash
@@ -93,6 +99,7 @@ sudo dnf install pipenv
 ```bash
 pipenv --version
 ```
+
 
 ## Creating a environment
 
@@ -322,3 +329,61 @@ cd Server/
 ```bash
 uvicorn main:app --reload
 ```
+
+## Deploy the server with NGINX Unit
+
+Check the nginx docs here [nginx-unit-docs](https://unit.nginx.org/)
+
+For the fastapi application click here [fatapi-nginx](https://unit.nginx.org/howto/fastapi/)
+
+### Ubuntu
+
+Install nginx
+
+```bash
+sudo apt install nginx
+```
+
+Navigate to the `sites-enabled` folder
+
+```bash
+cd /etc/nginx/sites-enabled/
+```
+
+Create a new file in this folder
+
+```bash
+sudo nano fastapi_nginx
+```
+
+Inside this file, specify the following:
+
+```bash
+server {
+    listen 80;
+    server_name YOUR_EC2_INSTANCE_PUBLIC_IP;
+    location / {
+        proxy_pass UVICORN_URL;
+    }
+}
+```
+
+Save the file. then run this
+
+```bash
+sudo service nginx restart
+```
+
+### Change the Security Inbound rules
+
+Go to the security group of your EC2 instance.
+
+Then Edit the inbound rules
+
+Add a new rule type HTTP, with the source `Anywhere-IPV4`
+
+After that save it.
+
+And test, navigating to your `http://YOUR_EC2_INSTANCE_PUBLIC_IP:8000`
+
+Ualá!
