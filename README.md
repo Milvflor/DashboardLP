@@ -39,7 +39,7 @@ sudo dnf install python-devel
 ### Nix OS (Replit)
 
 > [!NOTE]
-> 
+>
 > Install the latest version
 
 ```bash
@@ -87,7 +87,7 @@ sudo dnf install pipenv
 #### Nix OS (Replit)
 
 > [!NOTE]
-> 
+>
 > Install the latest version
 
 ```bash
@@ -121,8 +121,8 @@ python3 -m pipenv --python YOUR_PYTHON_VERSION
 ```
 
 > [!NOTE]
-> 
-> A  `Pipfile` will be created as a result
+>
+> A `Pipfile` will be created as a result
 
 #### Lock your environment
 
@@ -137,14 +137,14 @@ python3 -m pipenv lock
 ```
 
 > [!NOTE]
-> 
+>
 > A `Pipfile.lock` will be created as a result
 
 ## Install dependencies
 
-Check the fastapi pandas here [pandas-package](https://pandas.pydata.org/docs/getting_started/index.html#getting-started)
+Check the pandas here [pandas-package](https://pandas.pydata.org/docs/getting_started/index.html#getting-started)
 
-Check the fastapi dash here [dash-package](https://dash.plotly.com/)
+Check the dash here [dash-package](https://dash.plotly.com/)
 
 Check the fastapi pacakge here [fastapi-package](https://fastapi.tiangolo.com/tutorial/)
 
@@ -158,7 +158,13 @@ pipenv install "uvicorn[standar]"
 pipenv install boto3
 ```
 
-## Install AWS CLI 2
+## Configure aws cli or boto3
+
+> [!IMPORTANT]
+>
+> There are three ways to configure your aws instance
+
+## 1) Install AWS CLI 2
 
 ### Linux
 
@@ -177,14 +183,14 @@ sudo dnf install awscli2
 ### NixOs (Replit)
 
 > [!NOTE]
-> 
+>
 > Install the latest version awscli2.out
 
 ```bash
 aws --version
 ```
 
-## Configure AWS CLI 2 in Linux
+## 2) Configure AWS CLI 2 in Linux
 
 ### Using your shell
 
@@ -207,9 +213,9 @@ export AWS_SESSION_TOKEN=YOUR_SESSION_TOKEN
 Edit the `credentials` file
 
 > [!IMPORTANT]
-> 
+>
 > If you're using the Learner Lab of awsacademy.instructure.com
->     Check your credentials into AWS Details > AWS CLI click show
+> Check your credentials into AWS Details > AWS CLI click show
 
 ```bash
 nano ~/.aws/credentials
@@ -224,6 +230,19 @@ vim ~/.aws/credentials
 aws_access_key_id=YOUR_ACCESS_KEY_ID
 aws_secret_access_key=YOUR_SECRET_ACCESS_DATA_KEY
 aws_session_token=YOUR_SESSION_TOKEN
+```
+
+## 3) Change the code
+
+Inside the server folder modify both `data.py` and `main.py` files.
+
+```
+dynamodb = boto3.resource(
+    service_name='dynamodb',
+    region_name='YOUR_REGION',
+    aws_access_key_id='YOUR_ACCESS_KEY_ID',
+    aws_secret_access_key='YOUR_SESSION_TOKEN...'
+)
 ```
 
 ## Activate/Deactivate the environment
@@ -249,14 +268,8 @@ deactivate
 ## Run app
 
 > [!WARNING]
-> 
+>
 > Make sure you are inside the virtual environment, otherwise it won't work
-
-### Fedora
-
-```bash
-python Vizualization/app.py
-```
 
 ### Ubuntu
 
@@ -264,10 +277,16 @@ python Vizualization/app.py
 python3 Vizualization/app.py
 ```
 
+### Fedora
+
+```bash
+python Vizualization/app.py
+```
+
 ## Before running the server (Only run once)
 
 > [!WARNING]
-> 
+>
 > Make sure you are inside the virtual environment, otherwise it won't work
 
 ```bash
@@ -284,6 +303,12 @@ python ./data.py
 
 Make sure you are inside the virtual environment, otherwise it won't work
 
+### Ubuntu
+
+```bash
+python3 -m uvicorn main:app
+```
+
 ### Fedora
 
 Check the dyanamoDB API [dynamoDB](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#dynamodb)
@@ -296,10 +321,4 @@ cd Server/
 
 ```bash
 uvicorn main:app --reload
-```
-
-### Ubuntu
-
-```bash
-python3 -m uvicorn main:app
 ```
