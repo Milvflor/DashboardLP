@@ -398,6 +398,6 @@ Add a new rule type HTTP, with the source `Anywhere-IPV4`
 
 After that save it.
 
-And test, navigating to your `http://YOUR_EC2_INSTANCE_PUBLIC_IP:8000`
+And test, navigating to your `http://YOUR_EC2_INSTANCE_PUBLIC_IP/hotels`
 
 Ualá!
