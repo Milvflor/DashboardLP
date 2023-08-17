@@ -1,21 +1,5 @@
 # Python App
 
-## If using in a EC2 instance
-
-Watch this youtube video about it [yt-video](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
-
-Update your OS
-
-### Ubuntu
-
-```bash
-sudo apt-get update
-```
-
-```bash
-sudo apt-get upgrade
-```
-
 ## Install latest python version
 
 Check the official documentation [python-docs](https://www.python.org/downloads/)
@@ -330,6 +314,36 @@ cd Server/
 uvicorn main:app --reload
 ```
 
+## If using in a EC2 instance
+
+Watch this youtube video about it [yt-video](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
+
+Update your OS
+
+>[!NOTE]
+>
+>You can install the same dependencies of python but using pip instead of pipenv, remember to export path too.
+
+### Ubuntu
+
+Update
+
+```bash
+sudo apt-get update
+```
+
+Upgrade
+
+```bash
+sudo apt-get upgrade
+```
+
+Clone the GitHub repo
+
+```bash
+git clone https://github.com/niplinig/DashboardLP.git
+```
+
 ## Deploy the server with NGINX Unit
 
 Check the nginx docs here [nginx-unit-docs](https://unit.nginx.org/)
@@ -363,7 +377,7 @@ server {
     listen 80;
     server_name YOUR_EC2_INSTANCE_PUBLIC_IP;
     location / {
-        proxy_pass UVICORN_URL;
+        proxy_pass http://127.0.0.1:8000;
     }
 }
 ```
