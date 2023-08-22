@@ -3153,7 +3153,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 1,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.1",
     "hotel": "La Facha Hostal Restaurant Surf",
@@ -3163,7 +3163,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 2,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.4",
     "hotel": "La Facha Hostal Restaurant Surf",
@@ -3173,7 +3173,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 3,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.5",
     "hotel": "La Facha Hostal Restaurant Surf",
@@ -3183,7 +3183,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 4,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.5",
     "hotel": "La Facha Hostal Restaurant Surf",
@@ -3193,7 +3193,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 5,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.6",
     "hotel": "La Facha Hostal Restaurant Surf",
@@ -3203,7 +3203,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 6,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.1",
     "hotel": "La Facha Hostal Restaurant Surf",
@@ -3213,7 +3213,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 7,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.5",
     "hotel": "La Facha Hostal Restaurant Surf",
@@ -3223,7 +3223,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 8,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.4",
     "hotel": "Hotel Casa Arnaldo Esmeraldas",
@@ -3233,7 +3233,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 9,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.9",
     "hotel": "Hotel Casa Arnaldo Esmeraldas",
@@ -3243,7 +3243,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 10,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9.2",
     "hotel": "Hotel Casa Arnaldo Esmeraldas",
@@ -3253,7 +3253,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 11,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9.1",
     "hotel": "Hotel Casa Arnaldo Esmeraldas",
@@ -3263,7 +3263,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 12,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.6",
     "hotel": "Hotel Casa Arnaldo Esmeraldas",
@@ -3273,7 +3273,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 13,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.5",
     "hotel": "Hotel Casa Arnaldo Esmeraldas",
@@ -3283,7 +3283,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 14,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.9",
     "hotel": "Hotel Casa Arnaldo Esmeraldas",
@@ -3293,7 +3293,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 15,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.2",
     "hotel": "Hotel la Barca",
@@ -3303,7 +3303,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 16,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.5",
     "hotel": "Hotel la Barca",
@@ -3313,7 +3313,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 17,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.9",
     "hotel": "Hotel la Barca",
@@ -3323,7 +3323,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 18,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.7",
     "hotel": "Hotel la Barca",
@@ -3333,7 +3333,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 19,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.6",
     "hotel": "Hotel la Barca",
@@ -3343,7 +3343,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 20,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.4",
     "hotel": "Hotel la Barca",
@@ -3353,7 +3353,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 21,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "8.5",
     "hotel": "Hotel la Barca",
@@ -3363,7 +3363,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 22,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9",
     "hotel": "Resort Playa Azul Departamentos frente al mar",
@@ -3373,7 +3373,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 23,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "9.2",
     "hotel": "Resort Playa Azul Departamentos frente al mar",
@@ -3383,7 +3383,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 24,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9.3",
     "hotel": "Resort Playa Azul Departamentos frente al mar",
@@ -3393,7 +3393,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 25,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9.3",
     "hotel": "Resort Playa Azul Departamentos frente al mar",
@@ -3403,7 +3403,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 26,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.9",
     "hotel": "Resort Playa Azul Departamentos frente al mar",
@@ -3413,7 +3413,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 27,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.4",
     "hotel": "Resort Playa Azul Departamentos frente al mar",
@@ -3423,7 +3423,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 28,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.9",
     "hotel": "Resort Playa Azul Departamentos frente al mar",
@@ -3433,7 +3433,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 29,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.9",
     "hotel": "Escapaditas a la Playa",
@@ -3443,7 +3443,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 30,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "9.1",
     "hotel": "Escapaditas a la Playa",
@@ -3453,7 +3453,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 31,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9.3",
     "hotel": "Escapaditas a la Playa",
@@ -3463,7 +3463,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 32,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9.3",
     "hotel": "Escapaditas a la Playa",
@@ -3473,7 +3473,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 33,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "9",
     "hotel": "Escapaditas a la Playa",
@@ -3483,7 +3483,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 34,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "8.6",
     "hotel": "Escapaditas a la Playa",
@@ -3493,7 +3493,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 35,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.7",
     "hotel": "Hotel Oceanic Lodge",
@@ -3503,7 +3503,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 36,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.7",
     "hotel": "Hotel Oceanic Lodge",
@@ -3513,7 +3513,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 37,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.8",
     "hotel": "Hotel Oceanic Lodge",
@@ -3523,7 +3523,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 38,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9",
     "hotel": "Hotel Oceanic Lodge",
@@ -3533,7 +3533,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 39,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.2",
     "hotel": "Hotel Oceanic Lodge",
@@ -3543,7 +3543,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 40,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "7.9",
     "hotel": "Hotel Oceanic Lodge",
@@ -3553,7 +3553,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 41,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.5",
     "hotel": "Hotel Oceanic Lodge",
@@ -3563,7 +3563,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 42,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.5",
     "hotel": "Seaside Garden Ecolodge Mompiche",
@@ -3573,7 +3573,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 43,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.8",
     "hotel": "Seaside Garden Ecolodge Mompiche",
@@ -3583,7 +3583,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 44,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.9",
     "hotel": "Seaside Garden Ecolodge Mompiche",
@@ -3593,7 +3593,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 45,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9.2",
     "hotel": "Seaside Garden Ecolodge Mompiche",
@@ -3603,7 +3603,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 46,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "9.1",
     "hotel": "Seaside Garden Ecolodge Mompiche",
@@ -3613,7 +3613,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 47,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "8.9",
     "hotel": "Seaside Garden Ecolodge Mompiche",
@@ -3623,7 +3623,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 48,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "6.4",
     "hotel": "Seaside Garden Ecolodge Mompiche",
@@ -3633,7 +3633,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 49,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.2",
     "hotel": "Hotel RC Tonsupa",
@@ -3643,7 +3643,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 50,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.6",
     "hotel": "Hotel RC Tonsupa",
@@ -3653,7 +3653,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 51,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9",
     "hotel": "Hotel RC Tonsupa",
@@ -3663,7 +3663,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 52,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.8",
     "hotel": "Hotel RC Tonsupa",
@@ -3673,7 +3673,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 53,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.5",
     "hotel": "Hotel RC Tonsupa",
@@ -3683,7 +3683,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 54,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "7.9",
     "hotel": "Hotel RC Tonsupa",
@@ -3693,7 +3693,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 55,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.2",
     "hotel": "Hotel RC Tonsupa",
@@ -3703,7 +3703,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 56,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.3",
     "hotel": "Departamento Frente al Mar Diamond Beach",
@@ -3713,7 +3713,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 57,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "9.4",
     "hotel": "Departamento Frente al Mar Diamond Beach",
@@ -3723,7 +3723,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 58,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9.4",
     "hotel": "Departamento Frente al Mar Diamond Beach",
@@ -3733,7 +3733,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 59,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9.5",
     "hotel": "Departamento Frente al Mar Diamond Beach",
@@ -3743,7 +3743,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 60,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "9.2",
     "hotel": "Departamento Frente al Mar Diamond Beach",
@@ -3753,7 +3753,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 61,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.8",
     "hotel": "Departamento Frente al Mar Diamond Beach",
@@ -3763,7 +3763,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 62,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.7",
     "hotel": "Hotel Almond Beach",
@@ -3773,7 +3773,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 63,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.7",
     "hotel": "Hotel Almond Beach",
@@ -3783,7 +3783,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 64,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.9",
     "hotel": "Hotel Almond Beach",
@@ -3793,7 +3793,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 65,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.9",
     "hotel": "Hotel Almond Beach",
@@ -3803,7 +3803,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 66,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.5",
     "hotel": "Hotel Almond Beach",
@@ -3813,7 +3813,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 67,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "8.6",
     "hotel": "Hotel Almond Beach",
@@ -3823,7 +3823,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 68,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.5",
     "hotel": "Hotel Almond Beach",
@@ -3833,7 +3833,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 69,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.2",
     "hotel": "Cabañas Ecologicas Cayapas",
@@ -3843,7 +3843,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 70,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.5",
     "hotel": "Cabañas Ecologicas Cayapas",
@@ -3853,7 +3853,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 71,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.9",
     "hotel": "Cabañas Ecologicas Cayapas",
@@ -3863,7 +3863,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 72,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.9",
     "hotel": "Cabañas Ecologicas Cayapas",
@@ -3873,7 +3873,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 73,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.7",
     "hotel": "Cabañas Ecologicas Cayapas",
@@ -3883,7 +3883,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 74,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.5",
     "hotel": "Cabañas Ecologicas Cayapas",
@@ -3893,7 +3893,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 75,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "8.2",
     "hotel": "Cabañas Ecologicas Cayapas",
@@ -3903,7 +3903,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 76,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.8",
     "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
@@ -3913,7 +3913,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 77,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "7.9",
     "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
@@ -3923,7 +3923,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 78,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.7",
     "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
@@ -3933,7 +3933,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 79,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.4",
     "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
@@ -3943,7 +3943,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 80,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "7.3",
     "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
@@ -3953,7 +3953,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 81,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "8.6",
     "hotel": "Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro",
@@ -3963,7 +3963,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 82,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.2",
     "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
@@ -3973,7 +3973,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 83,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "9.1",
     "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
@@ -3983,7 +3983,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 84,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9.5",
     "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
@@ -3993,7 +3993,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 85,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9.5",
     "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
@@ -4003,7 +4003,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 86,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.9",
     "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
@@ -4013,7 +4013,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 87,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.2",
     "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
@@ -4023,7 +4023,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 88,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "10",
     "hotel": "Resort Playa Azul Tonsupa Departamento de 2 Habitaciones",
@@ -4033,7 +4033,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 89,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.2",
     "hotel": "Tonsupa Diamond Beach Apart - Hotel",
@@ -4043,7 +4043,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 90,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.6",
     "hotel": "Tonsupa Diamond Beach Apart - Hotel",
@@ -4053,7 +4053,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 91,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.9",
     "hotel": "Tonsupa Diamond Beach Apart - Hotel",
@@ -4063,7 +4063,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 92,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9",
     "hotel": "Tonsupa Diamond Beach Apart - Hotel",
@@ -4073,7 +4073,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 93,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.7",
     "hotel": "Tonsupa Diamond Beach Apart - Hotel",
@@ -4083,7 +4083,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 94,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.6",
     "hotel": "Tonsupa Diamond Beach Apart - Hotel",
@@ -4093,7 +4093,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 95,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.5",
     "hotel": "Tonsupa Diamond Beach Apart - Hotel",
@@ -4103,7 +4103,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 96,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.3",
     "hotel": "Aparthotel Oleaje",
@@ -4113,7 +4113,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 97,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.8",
     "hotel": "Aparthotel Oleaje",
@@ -4123,7 +4123,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 98,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9.3",
     "hotel": "Aparthotel Oleaje",
@@ -4133,7 +4133,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 99,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.9",
     "hotel": "Aparthotel Oleaje",
@@ -4143,7 +4143,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 100,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.8",
     "hotel": "Aparthotel Oleaje",
@@ -4153,7 +4153,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 101,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "8.7",
     "hotel": "Aparthotel Oleaje",
@@ -4163,7 +4163,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 102,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "6.3",
     "hotel": "Aparthotel Oleaje",
@@ -4173,7 +4173,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 103,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.7",
     "hotel": "Hotel Makana Resort",
@@ -4183,7 +4183,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 104,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.4",
     "hotel": "Hotel Makana Resort",
@@ -4193,7 +4193,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 105,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9",
     "hotel": "Hotel Makana Resort",
@@ -4203,7 +4203,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 106,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9",
     "hotel": "Hotel Makana Resort",
@@ -4213,7 +4213,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 107,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8",
     "hotel": "Hotel Makana Resort",
@@ -4223,7 +4223,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 108,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9",
     "hotel": "Hotel Makana Resort",
@@ -4233,7 +4233,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 109,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.2",
     "hotel": "Hotel Makana Resort",
@@ -4243,7 +4243,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 110,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.2",
     "hotel": "La Bocana",
@@ -4253,7 +4253,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 111,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.6",
     "hotel": "La Bocana",
@@ -4263,7 +4263,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 112,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9.1",
     "hotel": "La Bocana",
@@ -4273,7 +4273,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 113,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9",
     "hotel": "La Bocana",
@@ -4283,7 +4283,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 114,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.7",
     "hotel": "La Bocana",
@@ -4293,7 +4293,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 115,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.1",
     "hotel": "La Bocana",
@@ -4303,7 +4303,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 116,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.2",
     "hotel": "La Bocana",
@@ -4313,7 +4313,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 117,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "10",
     "hotel": "Departamentos frente al mar Resort Playa Azul",
@@ -4323,7 +4323,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 118,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "9.4",
     "hotel": "Departamentos frente al mar Resort Playa Azul",
@@ -4333,7 +4333,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 119,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "10",
     "hotel": "Departamentos frente al mar Resort Playa Azul",
@@ -4343,7 +4343,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 120,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "10",
     "hotel": "Departamentos frente al mar Resort Playa Azul",
@@ -4353,7 +4353,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 121,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "9.7",
     "hotel": "Departamentos frente al mar Resort Playa Azul",
@@ -4363,7 +4363,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 122,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "10",
     "hotel": "Departamentos frente al mar Resort Playa Azul",
@@ -4373,7 +4373,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 123,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.4",
     "hotel": "Suite Makana #403",
@@ -4383,7 +4383,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 124,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.2",
     "hotel": "Suite Makana #403",
@@ -4393,7 +4393,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 125,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.6",
     "hotel": "Suite Makana #403",
@@ -4403,7 +4403,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 126,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.6",
     "hotel": "Suite Makana #403",
@@ -4413,7 +4413,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 127,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.1",
     "hotel": "Suite Makana #403",
@@ -4423,7 +4423,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 128,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.3",
     "hotel": "Suite Makana #403",
@@ -4433,7 +4433,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 129,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "9.2",
     "hotel": "Suite Makana #403",
@@ -4443,7 +4443,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 130,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.9",
     "hotel": "Caramba Hospedaje",
@@ -4453,7 +4453,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 131,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.6",
     "hotel": "Caramba Hospedaje",
@@ -4463,7 +4463,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 132,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.8",
     "hotel": "Caramba Hospedaje",
@@ -4473,7 +4473,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 133,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.6",
     "hotel": "Caramba Hospedaje",
@@ -4483,7 +4483,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 134,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.3",
     "hotel": "Caramba Hospedaje",
@@ -4493,7 +4493,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 135,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9.4",
     "hotel": "Caramba Hospedaje",
@@ -4503,7 +4503,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 136,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "8.8",
     "hotel": "Caramba Hospedaje",
@@ -4513,7 +4513,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 137,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.2",
     "hotel": "Hotel Salduba",
@@ -4523,7 +4523,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 138,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.9",
     "hotel": "Hotel Salduba",
@@ -4533,7 +4533,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 139,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "9.3",
     "hotel": "Hotel Salduba",
@@ -4543,7 +4543,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 140,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "9.1",
     "hotel": "Hotel Salduba",
@@ -4553,7 +4553,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 141,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.7",
     "hotel": "Hotel Salduba",
@@ -4563,7 +4563,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 142,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "8.9",
     "hotel": "Hotel Salduba",
@@ -4573,7 +4573,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 143,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "7.5",
     "hotel": "Hotel Salduba",
@@ -4583,7 +4583,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 144,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.6",
     "hotel": "Casa del mar",
@@ -4593,7 +4593,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 145,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.9",
     "hotel": "Casa del mar",
@@ -4603,7 +4603,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 146,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.9",
     "hotel": "Casa del mar",
@@ -4613,7 +4613,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 147,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.9",
     "hotel": "Casa del mar",
@@ -4623,7 +4623,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 148,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.9",
     "hotel": "Casa del mar",
@@ -4633,7 +4633,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 149,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "6.7",
     "hotel": "Casa del mar",
@@ -4643,7 +4643,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 150,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "9.2",
     "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
@@ -4653,7 +4653,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 151,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.8",
     "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
@@ -4663,7 +4663,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 152,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.9",
     "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
@@ -4673,7 +4673,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 153,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.8",
     "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
@@ -4683,7 +4683,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 154,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.8",
     "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
@@ -4693,7 +4693,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 155,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "8",
     "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
@@ -4703,7 +4703,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 156,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Free WiFi",
     "score_category": "10",
     "hotel": "Tus Vacaciones en Tonsupa Ecuador.",
@@ -4713,7 +4713,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 157,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Staff",
     "score_category": "8.7",
     "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
@@ -4723,7 +4723,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 158,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Facilities",
     "score_category": "8.7",
     "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
@@ -4733,7 +4733,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 159,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Cleanliness",
     "score_category": "8.6",
     "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
@@ -4743,7 +4743,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 160,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Comfort",
     "score_category": "8.8",
     "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
@@ -4753,7 +4753,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 161,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Value for money",
     "score_category": "8.1",
     "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",
@@ -4763,7 +4763,7 @@ with categories.batch_writer() as batch:
   batch.put_item(
   Item={
     "id": 162,
-    "province": " Esmeraldas",
+    "province": "Esmeraldas",
     "category": "Location",
     "score_category": "9",
     "hotel": "Departamentos frente al mar en Resort Playa Azul-Tonsupa",

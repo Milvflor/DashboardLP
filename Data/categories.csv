@@ -1,166 +1,166 @@
-﻿id, province,category,score_category,hotel,score_hotel
-1, Esmeraldas,Staff,9.1,La Facha Hostal Restaurant Surf,8.4
-2, Esmeraldas,Facilities,8.4,La Facha Hostal Restaurant Surf,8.4
-3, Esmeraldas,Cleanliness,8.5,La Facha Hostal Restaurant Surf,8.4
-4, Esmeraldas,Comfort,8.5,La Facha Hostal Restaurant Surf,8.4
-5, Esmeraldas,Value for money,8.6,La Facha Hostal Restaurant Surf,8.4
-6, Esmeraldas,Location,9.1,La Facha Hostal Restaurant Surf,8.4
-7, Esmeraldas,Free WiFi,7.5,La Facha Hostal Restaurant Surf,8.4
-8, Esmeraldas,Staff,9.4,Hotel Casa Arnaldo Esmeraldas,8.9
-9, Esmeraldas,Facilities,8.9,Hotel Casa Arnaldo Esmeraldas,8.9
-10, Esmeraldas,Cleanliness,9.2,Hotel Casa Arnaldo Esmeraldas,8.9
-11, Esmeraldas,Comfort,9.1,Hotel Casa Arnaldo Esmeraldas,8.9
-12, Esmeraldas,Value for money,8.6,Hotel Casa Arnaldo Esmeraldas,8.9
-13, Esmeraldas,Location,9.5,Hotel Casa Arnaldo Esmeraldas,8.9
-14, Esmeraldas,Free WiFi,7.9,Hotel Casa Arnaldo Esmeraldas,8.9
-15, Esmeraldas,Staff,9.2,Hotel la Barca,8.8
-16, Esmeraldas,Facilities,8.5,Hotel la Barca,8.8
-17, Esmeraldas,Cleanliness,8.9,Hotel la Barca,8.8
-18, Esmeraldas,Comfort,8.7,Hotel la Barca,8.8
-19, Esmeraldas,Value for money,8.6,Hotel la Barca,8.8
-20, Esmeraldas,Location,9.4,Hotel la Barca,8.8
-21, Esmeraldas,Free WiFi,8.5,Hotel la Barca,8.8
-22, Esmeraldas,Staff,9.0,Resort Playa Azul Departamentos frente al mar,9.3
-23, Esmeraldas,Facilities,9.2,Resort Playa Azul Departamentos frente al mar,9.3
-24, Esmeraldas,Cleanliness,9.3,Resort Playa Azul Departamentos frente al mar,9.3
-25, Esmeraldas,Comfort,9.3,Resort Playa Azul Departamentos frente al mar,9.3
-26, Esmeraldas,Value for money,8.9,Resort Playa Azul Departamentos frente al mar,9.3
-27, Esmeraldas,Location,9.4,Resort Playa Azul Departamentos frente al mar,9.3
-28, Esmeraldas,Free WiFi,7.9,Resort Playa Azul Departamentos frente al mar,9.3
-29, Esmeraldas,Staff,8.9,Escapaditas a la Playa,8.8
-30, Esmeraldas,Facilities,9.1,Escapaditas a la Playa,8.8
-31, Esmeraldas,Cleanliness,9.3,Escapaditas a la Playa,8.8
-32, Esmeraldas,Comfort,9.3,Escapaditas a la Playa,8.8
-33, Esmeraldas,Value for money,9.0,Escapaditas a la Playa,8.8
-34, Esmeraldas,Location,8.6,Escapaditas a la Playa,8.8
-35, Esmeraldas,Staff,8.7,Hotel Oceanic Lodge,8.5
-36, Esmeraldas,Facilities,8.7,Hotel Oceanic Lodge,8.5
-37, Esmeraldas,Cleanliness,8.8,Hotel Oceanic Lodge,8.5
-38, Esmeraldas,Comfort,9.0,Hotel Oceanic Lodge,8.5
-39, Esmeraldas,Value for money,8.2,Hotel Oceanic Lodge,8.5
-40, Esmeraldas,Location,7.9,Hotel Oceanic Lodge,8.5
-41, Esmeraldas,Free WiFi,7.5,Hotel Oceanic Lodge,8.5
-42, Esmeraldas,Staff,9.5,Seaside Garden Ecolodge Mompiche,9.0
-43, Esmeraldas,Facilities,8.8,Seaside Garden Ecolodge Mompiche,9.0
-44, Esmeraldas,Cleanliness,8.9,Seaside Garden Ecolodge Mompiche,9.0
-45, Esmeraldas,Comfort,9.2,Seaside Garden Ecolodge Mompiche,9.0
-46, Esmeraldas,Value for money,9.1,Seaside Garden Ecolodge Mompiche,9.0
-47, Esmeraldas,Location,8.9,Seaside Garden Ecolodge Mompiche,9.0
-48, Esmeraldas,Free WiFi,6.4,Seaside Garden Ecolodge Mompiche,9.0
-49, Esmeraldas,Staff,9.2,Hotel RC Tonsupa,8.6
-50, Esmeraldas,Facilities,8.6,Hotel RC Tonsupa,8.6
-51, Esmeraldas,Cleanliness,9.0,Hotel RC Tonsupa,8.6
-52, Esmeraldas,Comfort,8.8,Hotel RC Tonsupa,8.6
-53, Esmeraldas,Value for money,8.5,Hotel RC Tonsupa,8.6
-54, Esmeraldas,Location,7.9,Hotel RC Tonsupa,8.6
-55, Esmeraldas,Free WiFi,7.2,Hotel RC Tonsupa,8.6
-56, Esmeraldas,Staff,9.3,Departamento Frente al Mar Diamond Beach,9.4
-57, Esmeraldas,Facilities,9.4,Departamento Frente al Mar Diamond Beach,9.4
-58, Esmeraldas,Cleanliness,9.4,Departamento Frente al Mar Diamond Beach,9.4
-59, Esmeraldas,Comfort,9.5,Departamento Frente al Mar Diamond Beach,9.4
-60, Esmeraldas,Value for money,9.2,Departamento Frente al Mar Diamond Beach,9.4
-61, Esmeraldas,Location,9.8,Departamento Frente al Mar Diamond Beach,9.4
-62, Esmeraldas,Staff,8.7,Hotel Almond Beach,8.7
-63, Esmeraldas,Facilities,8.7,Hotel Almond Beach,8.7
-64, Esmeraldas,Cleanliness,8.9,Hotel Almond Beach,8.7
-65, Esmeraldas,Comfort,8.9,Hotel Almond Beach,8.7
-66, Esmeraldas,Value for money,8.5,Hotel Almond Beach,8.7
-67, Esmeraldas,Location,8.6,Hotel Almond Beach,8.7
-68, Esmeraldas,Free WiFi,7.5,Hotel Almond Beach,8.7
-69, Esmeraldas,Staff,9.2,Cabañas Ecologicas Cayapas,8.9
-70, Esmeraldas,Facilities,8.5,Cabañas Ecologicas Cayapas,8.9
-71, Esmeraldas,Cleanliness,8.9,Cabañas Ecologicas Cayapas,8.9
-72, Esmeraldas,Comfort,8.9,Cabañas Ecologicas Cayapas,8.9
-73, Esmeraldas,Value for money,8.7,Cabañas Ecologicas Cayapas,8.9
-74, Esmeraldas,Location,9.5,Cabañas Ecologicas Cayapas,8.9
-75, Esmeraldas,Free WiFi,8.2,Cabañas Ecologicas Cayapas,8.9
-76, Esmeraldas,Staff,8.8,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
-77, Esmeraldas,Facilities,7.9,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
-78, Esmeraldas,Cleanliness,8.7,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
-79, Esmeraldas,Comfort,8.4,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
-80, Esmeraldas,Value for money,7.3,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
-81, Esmeraldas,Location,8.6,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
-82, Esmeraldas,Staff,9.2,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
-83, Esmeraldas,Facilities,9.1,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
-84, Esmeraldas,Cleanliness,9.5,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
-85, Esmeraldas,Comfort,9.5,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
-86, Esmeraldas,Value for money,8.9,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
-87, Esmeraldas,Location,9.2,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
-88, Esmeraldas,Free WiFi,10,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
-89, Esmeraldas,Staff,9.2,Tonsupa Diamond Beach Apart - Hotel,8.7
-90, Esmeraldas,Facilities,8.6,Tonsupa Diamond Beach Apart - Hotel,8.7
-91, Esmeraldas,Cleanliness,8.9,Tonsupa Diamond Beach Apart - Hotel,8.7
-92, Esmeraldas,Comfort,9.0,Tonsupa Diamond Beach Apart - Hotel,8.7
-93, Esmeraldas,Value for money,8.7,Tonsupa Diamond Beach Apart - Hotel,8.7
-94, Esmeraldas,Location,9.6,Tonsupa Diamond Beach Apart - Hotel,8.7
-95, Esmeraldas,Free WiFi,7.5,Tonsupa Diamond Beach Apart - Hotel,8.7
-96, Esmeraldas,Staff,9.3,Aparthotel Oleaje,8.9
-97, Esmeraldas,Facilities,8.8,Aparthotel Oleaje,8.9
-98, Esmeraldas,Cleanliness,9.3,Aparthotel Oleaje,8.9
-99, Esmeraldas,Comfort,8.9,Aparthotel Oleaje,8.9
-100, Esmeraldas,Value for money,8.8,Aparthotel Oleaje,8.9
-101, Esmeraldas,Location,8.7,Aparthotel Oleaje,8.9
-102, Esmeraldas,Free WiFi,6.3,Aparthotel Oleaje,8.9
-103, Esmeraldas,Staff,8.7,Hotel Makana Resort,8.4
-104, Esmeraldas,Facilities,8.4,Hotel Makana Resort,8.4
-105, Esmeraldas,Cleanliness,9.0,Hotel Makana Resort,8.4
-106, Esmeraldas,Comfort,9.0,Hotel Makana Resort,8.4
-107, Esmeraldas,Value for money,8.0,Hotel Makana Resort,8.4
-108, Esmeraldas,Location,9.0,Hotel Makana Resort,8.4
-109, Esmeraldas,Free WiFi,7.2,Hotel Makana Resort,8.4
-110, Esmeraldas,Staff,9.2,La Bocana,8.7
-111, Esmeraldas,Facilities,8.6,La Bocana,8.7
-112, Esmeraldas,Cleanliness,9.1,La Bocana,8.7
-113, Esmeraldas,Comfort,9.0,La Bocana,8.7
-114, Esmeraldas,Value for money,8.7,La Bocana,8.7
-115, Esmeraldas,Location,9.1,La Bocana,8.7
-116, Esmeraldas,Free WiFi,7.2,La Bocana,8.7
-117, Esmeraldas,Staff,10,Departamentos frente al mar Resort Playa Azul,9.6
-118, Esmeraldas,Facilities,9.4,Departamentos frente al mar Resort Playa Azul,9.6
-119, Esmeraldas,Cleanliness,10,Departamentos frente al mar Resort Playa Azul,9.6
-120, Esmeraldas,Comfort,10,Departamentos frente al mar Resort Playa Azul,9.6
-121, Esmeraldas,Value for money,9.7,Departamentos frente al mar Resort Playa Azul,9.6
-122, Esmeraldas,Location,10,Departamentos frente al mar Resort Playa Azul,9.6
-123, Esmeraldas,Staff,8.4,Suite Makana #403,8.6
-124, Esmeraldas,Facilities,8.2,Suite Makana #403,8.6
-125, Esmeraldas,Cleanliness,8.6,Suite Makana #403,8.6
-126, Esmeraldas,Comfort,8.6,Suite Makana #403,8.6
-127, Esmeraldas,Value for money,8.1,Suite Makana #403,8.6
-128, Esmeraldas,Location,9.3,Suite Makana #403,8.6
-129, Esmeraldas,Free WiFi,9.2,Suite Makana #403,8.6
-130, Esmeraldas,Staff,8.9,Caramba Hospedaje,8.6
-131, Esmeraldas,Facilities,8.6,Caramba Hospedaje,8.6
-132, Esmeraldas,Cleanliness,8.8,Caramba Hospedaje,8.6
-133, Esmeraldas,Comfort,8.6,Caramba Hospedaje,8.6
-134, Esmeraldas,Value for money,8.3,Caramba Hospedaje,8.6
-135, Esmeraldas,Location,9.4,Caramba Hospedaje,8.6
-136, Esmeraldas,Free WiFi,8.8,Caramba Hospedaje,8.6
-137, Esmeraldas,Staff,9.2,Hotel Salduba,9.1
-138, Esmeraldas,Facilities,8.9,Hotel Salduba,9.1
-139, Esmeraldas,Cleanliness,9.3,Hotel Salduba,9.1
-140, Esmeraldas,Comfort,9.1,Hotel Salduba,9.1
-141, Esmeraldas,Value for money,8.7,Hotel Salduba,9.1
-142, Esmeraldas,Location,8.9,Hotel Salduba,9.1
-143, Esmeraldas,Free WiFi,7.5,Hotel Salduba,9.1
-144, Esmeraldas,Staff,8.6,Casa del mar,6.7
-145, Esmeraldas,Facilities,8.9,Casa del mar,6.7
-146, Esmeraldas,Cleanliness,8.9,Casa del mar,6.7
-147, Esmeraldas,Comfort,8.9,Casa del mar,6.7
-148, Esmeraldas,Value for money,8.9,Casa del mar,6.7
-149, Esmeraldas,Location,6.7,Casa del mar,6.7
-150, Esmeraldas,Staff,9.2,Tus Vacaciones en Tonsupa Ecuador.,9.1
-151, Esmeraldas,Facilities,8.8,Tus Vacaciones en Tonsupa Ecuador.,9.1
-152, Esmeraldas,Cleanliness,8.9,Tus Vacaciones en Tonsupa Ecuador.,9.1
-153, Esmeraldas,Comfort,8.8,Tus Vacaciones en Tonsupa Ecuador.,9.1
-154, Esmeraldas,Value for money,8.8,Tus Vacaciones en Tonsupa Ecuador.,9.1
-155, Esmeraldas,Location,8.0,Tus Vacaciones en Tonsupa Ecuador.,9.1
-156, Esmeraldas,Free WiFi,10,Tus Vacaciones en Tonsupa Ecuador.,9.1
-157, Esmeraldas,Staff,8.7,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
-158, Esmeraldas,Facilities,8.7,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
-159, Esmeraldas,Cleanliness,8.6,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
-160, Esmeraldas,Comfort,8.8,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
-161, Esmeraldas,Value for money,8.1,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
-162, Esmeraldas,Location,9.0,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
+﻿id,province,category,score_category,hotel,score_hotel
+1,Esmeraldas,Staff,9.1,La Facha Hostal Restaurant Surf,8.4
+2,Esmeraldas,Facilities,8.4,La Facha Hostal Restaurant Surf,8.4
+3,Esmeraldas,Cleanliness,8.5,La Facha Hostal Restaurant Surf,8.4
+4,Esmeraldas,Comfort,8.5,La Facha Hostal Restaurant Surf,8.4
+5,Esmeraldas,Value for money,8.6,La Facha Hostal Restaurant Surf,8.4
+6,Esmeraldas,Location,9.1,La Facha Hostal Restaurant Surf,8.4
+7,Esmeraldas,Free WiFi,7.5,La Facha Hostal Restaurant Surf,8.4
+8,Esmeraldas,Staff,9.4,Hotel Casa Arnaldo Esmeraldas,8.9
+9,Esmeraldas,Facilities,8.9,Hotel Casa Arnaldo Esmeraldas,8.9
+10,Esmeraldas,Cleanliness,9.2,Hotel Casa Arnaldo Esmeraldas,8.9
+11,Esmeraldas,Comfort,9.1,Hotel Casa Arnaldo Esmeraldas,8.9
+12,Esmeraldas,Value for money,8.6,Hotel Casa Arnaldo Esmeraldas,8.9
+13,Esmeraldas,Location,9.5,Hotel Casa Arnaldo Esmeraldas,8.9
+14,Esmeraldas,Free WiFi,7.9,Hotel Casa Arnaldo Esmeraldas,8.9
+15,Esmeraldas,Staff,9.2,Hotel la Barca,8.8
+16,Esmeraldas,Facilities,8.5,Hotel la Barca,8.8
+17,Esmeraldas,Cleanliness,8.9,Hotel la Barca,8.8
+18,Esmeraldas,Comfort,8.7,Hotel la Barca,8.8
+19,Esmeraldas,Value for money,8.6,Hotel la Barca,8.8
+20,Esmeraldas,Location,9.4,Hotel la Barca,8.8
+21,Esmeraldas,Free WiFi,8.5,Hotel la Barca,8.8
+22,Esmeraldas,Staff,9.0,Resort Playa Azul Departamentos frente al mar,9.3
+23,Esmeraldas,Facilities,9.2,Resort Playa Azul Departamentos frente al mar,9.3
+24,Esmeraldas,Cleanliness,9.3,Resort Playa Azul Departamentos frente al mar,9.3
+25,Esmeraldas,Comfort,9.3,Resort Playa Azul Departamentos frente al mar,9.3
+26,Esmeraldas,Value for money,8.9,Resort Playa Azul Departamentos frente al mar,9.3
+27,Esmeraldas,Location,9.4,Resort Playa Azul Departamentos frente al mar,9.3
+28,Esmeraldas,Free WiFi,7.9,Resort Playa Azul Departamentos frente al mar,9.3
+29,Esmeraldas,Staff,8.9,Escapaditas a la Playa,8.8
+30,Esmeraldas,Facilities,9.1,Escapaditas a la Playa,8.8
+31,Esmeraldas,Cleanliness,9.3,Escapaditas a la Playa,8.8
+32,Esmeraldas,Comfort,9.3,Escapaditas a la Playa,8.8
+33,Esmeraldas,Value for money,9.0,Escapaditas a la Playa,8.8
+34,Esmeraldas,Location,8.6,Escapaditas a la Playa,8.8
+35,Esmeraldas,Staff,8.7,Hotel Oceanic Lodge,8.5
+36,Esmeraldas,Facilities,8.7,Hotel Oceanic Lodge,8.5
+37,Esmeraldas,Cleanliness,8.8,Hotel Oceanic Lodge,8.5
+38,Esmeraldas,Comfort,9.0,Hotel Oceanic Lodge,8.5
+39,Esmeraldas,Value for money,8.2,Hotel Oceanic Lodge,8.5
+40,Esmeraldas,Location,7.9,Hotel Oceanic Lodge,8.5
+41,Esmeraldas,Free WiFi,7.5,Hotel Oceanic Lodge,8.5
+42,Esmeraldas,Staff,9.5,Seaside Garden Ecolodge Mompiche,9.0
+43,Esmeraldas,Facilities,8.8,Seaside Garden Ecolodge Mompiche,9.0
+44,Esmeraldas,Cleanliness,8.9,Seaside Garden Ecolodge Mompiche,9.0
+45,Esmeraldas,Comfort,9.2,Seaside Garden Ecolodge Mompiche,9.0
+46,Esmeraldas,Value for money,9.1,Seaside Garden Ecolodge Mompiche,9.0
+47,Esmeraldas,Location,8.9,Seaside Garden Ecolodge Mompiche,9.0
+48,Esmeraldas,Free WiFi,6.4,Seaside Garden Ecolodge Mompiche,9.0
+49,Esmeraldas,Staff,9.2,Hotel RC Tonsupa,8.6
+50,Esmeraldas,Facilities,8.6,Hotel RC Tonsupa,8.6
+51,Esmeraldas,Cleanliness,9.0,Hotel RC Tonsupa,8.6
+52,Esmeraldas,Comfort,8.8,Hotel RC Tonsupa,8.6
+53,Esmeraldas,Value for money,8.5,Hotel RC Tonsupa,8.6
+54,Esmeraldas,Location,7.9,Hotel RC Tonsupa,8.6
+55,Esmeraldas,Free WiFi,7.2,Hotel RC Tonsupa,8.6
+56,Esmeraldas,Staff,9.3,Departamento Frente al Mar Diamond Beach,9.4
+57,Esmeraldas,Facilities,9.4,Departamento Frente al Mar Diamond Beach,9.4
+58,Esmeraldas,Cleanliness,9.4,Departamento Frente al Mar Diamond Beach,9.4
+59,Esmeraldas,Comfort,9.5,Departamento Frente al Mar Diamond Beach,9.4
+60,Esmeraldas,Value for money,9.2,Departamento Frente al Mar Diamond Beach,9.4
+61,Esmeraldas,Location,9.8,Departamento Frente al Mar Diamond Beach,9.4
+62,Esmeraldas,Staff,8.7,Hotel Almond Beach,8.7
+63,Esmeraldas,Facilities,8.7,Hotel Almond Beach,8.7
+64,Esmeraldas,Cleanliness,8.9,Hotel Almond Beach,8.7
+65,Esmeraldas,Comfort,8.9,Hotel Almond Beach,8.7
+66,Esmeraldas,Value for money,8.5,Hotel Almond Beach,8.7
+67,Esmeraldas,Location,8.6,Hotel Almond Beach,8.7
+68,Esmeraldas,Free WiFi,7.5,Hotel Almond Beach,8.7
+69,Esmeraldas,Staff,9.2,Cabañas Ecologicas Cayapas,8.9
+70,Esmeraldas,Facilities,8.5,Cabañas Ecologicas Cayapas,8.9
+71,Esmeraldas,Cleanliness,8.9,Cabañas Ecologicas Cayapas,8.9
+72,Esmeraldas,Comfort,8.9,Cabañas Ecologicas Cayapas,8.9
+73,Esmeraldas,Value for money,8.7,Cabañas Ecologicas Cayapas,8.9
+74,Esmeraldas,Location,9.5,Cabañas Ecologicas Cayapas,8.9
+75,Esmeraldas,Free WiFi,8.2,Cabañas Ecologicas Cayapas,8.9
+76,Esmeraldas,Staff,8.8,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
+77,Esmeraldas,Facilities,7.9,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
+78,Esmeraldas,Cleanliness,8.7,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
+79,Esmeraldas,Comfort,8.4,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
+80,Esmeraldas,Value for money,7.3,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
+81,Esmeraldas,Location,8.6,Departamento 4 habitaciones 12 personas vista al mar 8vo piso Playa Almendro,7.5
+82,Esmeraldas,Staff,9.2,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
+83,Esmeraldas,Facilities,9.1,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
+84,Esmeraldas,Cleanliness,9.5,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
+85,Esmeraldas,Comfort,9.5,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
+86,Esmeraldas,Value for money,8.9,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
+87,Esmeraldas,Location,9.2,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
+88,Esmeraldas,Free WiFi,10,Resort Playa Azul Tonsupa Departamento de 2 Habitaciones,9.1
+89,Esmeraldas,Staff,9.2,Tonsupa Diamond Beach Apart - Hotel,8.7
+90,Esmeraldas,Facilities,8.6,Tonsupa Diamond Beach Apart - Hotel,8.7
+91,Esmeraldas,Cleanliness,8.9,Tonsupa Diamond Beach Apart - Hotel,8.7
+92,Esmeraldas,Comfort,9.0,Tonsupa Diamond Beach Apart - Hotel,8.7
+93,Esmeraldas,Value for money,8.7,Tonsupa Diamond Beach Apart - Hotel,8.7
+94,Esmeraldas,Location,9.6,Tonsupa Diamond Beach Apart - Hotel,8.7
+95,Esmeraldas,Free WiFi,7.5,Tonsupa Diamond Beach Apart - Hotel,8.7
+96,Esmeraldas,Staff,9.3,Aparthotel Oleaje,8.9
+97,Esmeraldas,Facilities,8.8,Aparthotel Oleaje,8.9
+98,Esmeraldas,Cleanliness,9.3,Aparthotel Oleaje,8.9
+99,Esmeraldas,Comfort,8.9,Aparthotel Oleaje,8.9
+100,Esmeraldas,Value for money,8.8,Aparthotel Oleaje,8.9
+101,Esmeraldas,Location,8.7,Aparthotel Oleaje,8.9
+102,Esmeraldas,Free WiFi,6.3,Aparthotel Oleaje,8.9
+103,Esmeraldas,Staff,8.7,Hotel Makana Resort,8.4
+104,Esmeraldas,Facilities,8.4,Hotel Makana Resort,8.4
+105,Esmeraldas,Cleanliness,9.0,Hotel Makana Resort,8.4
+106,Esmeraldas,Comfort,9.0,Hotel Makana Resort,8.4
+107,Esmeraldas,Value for money,8.0,Hotel Makana Resort,8.4
+108,Esmeraldas,Location,9.0,Hotel Makana Resort,8.4
+109,Esmeraldas,Free WiFi,7.2,Hotel Makana Resort,8.4
+110,Esmeraldas,Staff,9.2,La Bocana,8.7
+111,Esmeraldas,Facilities,8.6,La Bocana,8.7
+112,Esmeraldas,Cleanliness,9.1,La Bocana,8.7
+113,Esmeraldas,Comfort,9.0,La Bocana,8.7
+114,Esmeraldas,Value for money,8.7,La Bocana,8.7
+115,Esmeraldas,Location,9.1,La Bocana,8.7
+116,Esmeraldas,Free WiFi,7.2,La Bocana,8.7
+117,Esmeraldas,Staff,10,Departamentos frente al mar Resort Playa Azul,9.6
+118,Esmeraldas,Facilities,9.4,Departamentos frente al mar Resort Playa Azul,9.6
+119,Esmeraldas,Cleanliness,10,Departamentos frente al mar Resort Playa Azul,9.6
+120,Esmeraldas,Comfort,10,Departamentos frente al mar Resort Playa Azul,9.6
+121,Esmeraldas,Value for money,9.7,Departamentos frente al mar Resort Playa Azul,9.6
+122,Esmeraldas,Location,10,Departamentos frente al mar Resort Playa Azul,9.6
+123,Esmeraldas,Staff,8.4,Suite Makana #403,8.6
+124,Esmeraldas,Facilities,8.2,Suite Makana #403,8.6
+125,Esmeraldas,Cleanliness,8.6,Suite Makana #403,8.6
+126,Esmeraldas,Comfort,8.6,Suite Makana #403,8.6
+127,Esmeraldas,Value for money,8.1,Suite Makana #403,8.6
+128,Esmeraldas,Location,9.3,Suite Makana #403,8.6
+129,Esmeraldas,Free WiFi,9.2,Suite Makana #403,8.6
+130,Esmeraldas,Staff,8.9,Caramba Hospedaje,8.6
+131,Esmeraldas,Facilities,8.6,Caramba Hospedaje,8.6
+132,Esmeraldas,Cleanliness,8.8,Caramba Hospedaje,8.6
+133,Esmeraldas,Comfort,8.6,Caramba Hospedaje,8.6
+134,Esmeraldas,Value for money,8.3,Caramba Hospedaje,8.6
+135,Esmeraldas,Location,9.4,Caramba Hospedaje,8.6
+136,Esmeraldas,Free WiFi,8.8,Caramba Hospedaje,8.6
+137,Esmeraldas,Staff,9.2,Hotel Salduba,9.1
+138,Esmeraldas,Facilities,8.9,Hotel Salduba,9.1
+139,Esmeraldas,Cleanliness,9.3,Hotel Salduba,9.1
+140,Esmeraldas,Comfort,9.1,Hotel Salduba,9.1
+141,Esmeraldas,Value for money,8.7,Hotel Salduba,9.1
+142,Esmeraldas,Location,8.9,Hotel Salduba,9.1
+143,Esmeraldas,Free WiFi,7.5,Hotel Salduba,9.1
+144,Esmeraldas,Staff,8.6,Casa del mar,6.7
+145,Esmeraldas,Facilities,8.9,Casa del mar,6.7
+146,Esmeraldas,Cleanliness,8.9,Casa del mar,6.7
+147,Esmeraldas,Comfort,8.9,Casa del mar,6.7
+148,Esmeraldas,Value for money,8.9,Casa del mar,6.7
+149,Esmeraldas,Location,6.7,Casa del mar,6.7
+150,Esmeraldas,Staff,9.2,Tus Vacaciones en Tonsupa Ecuador.,9.1
+151,Esmeraldas,Facilities,8.8,Tus Vacaciones en Tonsupa Ecuador.,9.1
+152,Esmeraldas,Cleanliness,8.9,Tus Vacaciones en Tonsupa Ecuador.,9.1
+153,Esmeraldas,Comfort,8.8,Tus Vacaciones en Tonsupa Ecuador.,9.1
+154,Esmeraldas,Value for money,8.8,Tus Vacaciones en Tonsupa Ecuador.,9.1
+155,Esmeraldas,Location,8.0,Tus Vacaciones en Tonsupa Ecuador.,9.1
+156,Esmeraldas,Free WiFi,10,Tus Vacaciones en Tonsupa Ecuador.,9.1
+157,Esmeraldas,Staff,8.7,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
+158,Esmeraldas,Facilities,8.7,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
+159,Esmeraldas,Cleanliness,8.6,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
+160,Esmeraldas,Comfort,8.8,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
+161,Esmeraldas,Value for money,8.1,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
+162,Esmeraldas,Location,9.0,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
 163,Esmeraldas,Free WiFi,5.2,Departamentos frente al mar en Resort Playa Azul-Tonsupa,8.6
 164,Cuenca,Staff,8.8,Hotel Santiago de Compostella Suites,8.1
 165,Cuenca,Facilities,8.2,Hotel Santiago de Compostella Suites,8.1
