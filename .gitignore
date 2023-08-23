@@ -2,3 +2,4 @@ Pipfile
 Pipfile.lock
 .replit
 replit.nix
+env

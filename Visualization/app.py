@@ -78,9 +78,8 @@ df_surroundings = pd.read_json("./Visualization/surroundings.json", dtype={
 
 # Setting default fields
 default_province = df_hotels.province.unique()[0]
-default_category = df_categories[df_categories.province == default_province].category.unique()[:]
+default_category = df_categories[df_categories.province == default_province].category.unique()
 default_hotel = df_categories[df_categories.province == default_province].hotel.unique()[:8]
-
 
 app = Dash(
     __name__,
@@ -125,9 +124,9 @@ app.layout = html.Div(
                             style={"text-align": "left", "padding-top": "20px"},
                         ),
                         dcc.Dropdown(
-                            options=default_category,
+                            options=[{'label': item, 'value': item} for item in default_category],
                             id="multidrop-category",
-                            className="multidrop-category",
+                            className="multidrop-category2",
                             multi=True,
                         ),
                         html.P(
@@ -135,9 +134,9 @@ app.layout = html.Div(
                             style={"text-align": "left", "padding-top": "20px"},
                         ),
                         dcc.Dropdown(
-                            options=default_hotel,
+                            options=[{'label': item, 'value': item} for item in default_hotel],
                             id="multidrop-hotel",
-                            className="multidrop-hotel",
+                            className="multidrop-hotel2",
                             multi=True,
                         ),
                         html.P(
@@ -184,6 +183,7 @@ app.layout = html.Div(
 )
 def update_graph(province_value):
     dff = df_hotels[df_hotels.province == province_value]
+
     categories = df_categories[df_categories.province == province_value][
         "category"
     ].unique()
@@ -193,17 +193,14 @@ def update_graph(province_value):
 
     # Create figure with secondary y-axis
     fig = make_subplots(specs=[[{"secondary_y": True}]])
-
     # Add traces
     fig.add_trace(
-        go.Scatter(x=dff.hotel, y=dff.price, name="Price"), secondary_y=False
+        go.Scatter(x=dff.name, y=dff.price, name="Price"), secondary_y=False
     )
-
     fig.add_trace(
-        go.Scatter(x=dff.hotel, y=dff.score, name="Score"),
+        go.Scatter(x=dff.name, y=dff.score, name="Score"),
         secondary_y=True,
     )
-
     # Add figure title
     fig.update_layout(title_text=f"Hoteles en {province_value}")
 
