@@ -17,9 +17,9 @@ app = FastAPI()
 dynamodb = boto3.resource(
     service_name='dynamodb',
     region_name='us-east-1',
-    aws_access_key_id='ASIAX4I3MXBHH3WIKPGX',
-    aws_secret_access_key='TCADmLFaG/W33Dwho9seZxyqawB4iBfGVzAMEy+Z',
-    aws_session_token='FwoGZXIvYXdzEDkaDKTEig31E4yZDwuSOyK5AXnNu7GprEM5L05QktEU8Sjtu5VruVA6iy8F0TFDfEmvh/otY443915VuAjLqj2FIFYcI5oobZ9XYGvkadLN08XeQF7wJiF3RCsqtVRYBNaC8hQZ2mK7g5YLvwJso85TIc23bndQzAuXiggKDkFH9dg4oe/8PaZC9ZW65h3Wou25tPiuSPjLnea2t9Ighv/nqrIzo1YjQGj5EvzP47kVW5rAN7DJGEQZah8ilcVmr9OqA2nBI3MuBVvfKMDuj6cGMi3ueDSrPYOqAPB/X6rbmcdwwp5NgW9C8o/gfMA/XOCRwszcOlMKxb22N6A5P1Q='
+    aws_access_key_id='ASIAZZ5DBKWW7CM3L7WC',
+    aws_secret_access_key='0h8i5jLlsLMjQ8SoSIa1+kPLgv8FDUZz3HqJ8VIJ',
+    aws_session_token='FwoGZXIvYXdzEFIaDNbUq0+sIyqCGiG1YyK5AVK4QdM1ES3CDeeNtvtJV8IhbzBG5rZHAuv4ylHBvtNeKqoplNJiWEzm49pEe4VP5tDN9AaV1J6/Sp48j28q9WP1naVPQEiX6CU/bvrp1nPTWyT7DLvre10IEv3NlSGFppShk9Nq6i0xfO7D1qtT8wwPORY26pw2kYrPmpzHRvG2Bi+eG07LQzBq64G6DUNbLeF8xO0BKcAprmtFGKqhSX9ZUjInPnG4bmEVnA1uqd/GerrOHAvcwDy8KN+elacGMi2dtY9gHWqqPNUXtvoP/wMuZ9MzKOEgVr7LPLWsQ9G7em2LL8BUzeJwGFNZXJY='
 )
 
 @app.get("/")
